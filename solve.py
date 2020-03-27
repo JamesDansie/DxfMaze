@@ -1,30 +1,45 @@
 import ezdxf
 import time
-# from mazes import mazes
+# from mazes import Maze
 from factory import SolverFactory
 import argparse
 
 def solve(factory, method, input_file, output_file):
     # Import the dxf
     print("Loading Dxf")
-    doc = ezdxf.readfile(input_file)
+    dxf_doc = ezdxf.readfile(input_file)
+    dxf_msp = dxf_doc.modelspace()
 
-    # From ezdxf tutorial
-    # iterate over all entities in modelspace
-    msp = doc.modelspace()
-    for e in msp:
-        if e.dxftype() == 'LINE':
-            print_entity(e)
+    unfrozen_layers = []
+    for layer in dxf_doc.layers:
+        if(layer.is_frozen() == False):
+            unfrozen_layers.append(layer)
 
-    # entity query for all LINE entities in modelspace
-    for e in msp.query('LINE'):
+    unfrozen_layers_names = []
+    for layer in unfrozen_layers:
+        print(layer.dxf.name)
+        print(layer.is_frozen())
+        unfrozen_layers_names.append('layer == "' + layer.dxf.name + '"')
+
+    query_str = ' | '.join(unfrozen_layers_names)
+    print(query_str)
+    print('LINE[{}]'.format(query_str))
+
+    lines = dxf_msp.query('LINE[{}]'.format(query_str))
+
+        # entity query for all LINE entities in modelspace
+    for e in lines:
         print_entity(e)
 
-def print_entity(e):
-    print("LINE on layer: %s\n" % e.dxf.layer)
-    print("start point: %s\n" % e.dxf.start)
-    print("end point: %s\n" % e.dxf.end)
+    
 
+    print("Creating Graph/Maze")
+    # maze = Maze(dxf_doc)
+    
+def print_entity(e):
+        print("LINE on layer: %s\n" % e.dxf.layer)
+        print("start point: %s\n" % e.dxf.start)
+        print("end point: %s\n" % e.dxf.end)
 
 def main():
     sf = SolverFactory()
