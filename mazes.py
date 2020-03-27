@@ -50,22 +50,27 @@ class Maze:
         #         3.3.1) All horizontal edges check vertical lines, all vertical edges check horizontal lines
         #     3.4) if edge does not cross a line then make the edge, else don't make the edge
         # 4) go solve it!
+            
+        lines_horizontal = []
+        lines_vertical = []
+        lines_diagnoal = []
 
+        for line in lines:
+            if(_isHoriz(line.dxf.start, line.dxf.end)):
+                lines_horizontal.append(line)
+            elif(_isVert(line.dxf.start, line.dxf.end)):
+                lines_vertical.append(line)
+            elif(_isDiag(line.dxf.start, line.dxf.end)):
+                lines_diagnoal.append(line)
 
+        print('there are ', len(lines),' lines ')
+        print('there are ', len(lines_horizontal), 'horizontal lines')
+        print('there are ', len(lines_vertical), 'vertical lines')
+        print('there are ', len(lines_diagnoal), 'diagonal lines')
 
-        # ***** ntesting zone below *****
-        # From ezdxf tutorial
-        # iterate over all entities in modelspace
-        # msp = dxf_doc.modelspace()
-        # for e in msp:
-        #     if e.dxftype() == 'LINE':
-        #         print_entity(e)
+        # ***** testing zone below *****
 
-        # # entity query for all LINE entities in modelspace
-        # for e in msp.query('LINE'):
-        #     print_entity(e)
-
-        #Testing for intersection
+        # Testing for intersection and line direction
         test_node1 = Maze.Node((2700, 0))
         test_node2 = Maze.Node((2800, 3500))
         test_line = lines[0]
@@ -75,14 +80,29 @@ class Maze:
         print(test_node1.Position)
         print(test_node2.Position)
 
-        print(_intersect(
+        print('does it intersect? ',_intersect(
             (test_node1.Position[0], test_node1.Position[1]),
             (test_node2.Position[0], test_node2.Position[1]),
             (test_line.dxf.start[0], test_line.dxf.start[1]),
             (test_line.dxf.end[0], test_line.dxf.end[1])
             ))
 
-def _print_entity(self, e):
+        print('is horizontal? ',_isHoriz(
+            (test_node1.Position[0], test_node1.Position[1]),
+            (test_node2.Position[0], test_node2.Position[1])
+        ))
+
+        print('is vert? ',_isVert(
+            (test_node1.Position[0], test_node1.Position[1]),
+            (test_node2.Position[0], test_node2.Position[1])
+        ))
+
+        print('is diagonal? ',_isDiag(
+            (test_node1.Position[0], test_node1.Position[1]),
+            (test_node2.Position[0], test_node2.Position[1])
+        ))
+
+def _print_entity(e):
     print("LINE on layer: %s\n" % e.dxf.layer)
     print("start point: %s\n" % e.dxf.start)
     print("end point: %s\n" % e.dxf.end)
@@ -93,3 +113,18 @@ def _ccw(pos1, pos2, pos3):
 
 def _intersect(pos1, pos2, pos3, pos4):
     return _ccw(pos1, pos3, pos4) != _ccw(pos2, pos3, pos4) and _ccw(pos1, pos2, pos3) != _ccw(pos1, pos2, pos4)
+
+def _xdiff(pos1, pos2):
+    return pos1[0] - pos2[0]
+
+def _ydiff(pos1, pos2):
+    return pos1[1] - pos2[1]
+
+def _isHoriz(pos1, pos2):
+    return abs(_xdiff(pos1, pos2)) > .1 and abs(_ydiff(pos1, pos2)) < 0.1
+
+def _isVert(pos1, pos2):
+    return abs(_xdiff(pos1, pos2)) < .1 and abs(_ydiff(pos1, pos2)) > 0.1
+
+def _isDiag(pos1, pos2):
+    return abs(_xdiff(pos1, pos2)) > .1 and abs(_ydiff(pos1, pos2)) > 0.1
