@@ -35,7 +35,11 @@ class Maze:
         # print('LINE[{}]'.format(query_str))
 
         # Lines are only from unfrozen layers
+        polylines = dxf_msp.query('LWPOLYLINE')
         lines = dxf_msp.query('LINE[{}]'.format(query_str))
+        # polylines = dxf_msp.query('POLYLINE[{}]'.format(query_str))
+        # polylines = dxf_msp.query('POLYLINE')
+
 
         # uncomment to see lines
         # for e in lines:
@@ -105,47 +109,51 @@ class Maze:
 
         print('xcounter: ',xcounter_ft,' xmax ',xmax_ft)
 
-        while ycounter_ft < ymax_ft:
+        # while ycounter_ft < ymax_ft:
         
-            xcounter_ft = xmin_ft
-            nodes_row = []
-            prev = None
+        #     xcounter_ft = xmin_ft
+        #     nodes_row = []
+        #     prev = None
 
-            while xcounter_ft < xmax_ft:                
-                curr = Maze.Node((xcounter_ft, ycounter_ft))
-                print(curr.Position)
-                dxf_msp.add_circle(curr.Position, 0.3)
-                # curr adds the previous node to the left
+        #     while xcounter_ft < xmax_ft:                
+        #         curr = Maze.Node((xcounter_ft, ycounter_ft))
+        #         print(curr.Position)
+        #         dxf_msp.add_circle((curr.Position[0]*12, curr.Position[1]*12), 2, dxfattribs={'layer': 'E-B-FURR'})
+        #         # curr adds the previous node to the left
                 
-                if(
-                    prev != None and 
-                    _intersect_lines(lines_vertical, curr.Position, prev.Position) and
-                    _intersect_lines(lines_diagnoal, curr.Position, prev.Position)
-                    ):
-                    # the previous node to the left adds the current node to the right if there's no walls in the way
-                    curr.Neighbors[3] = prev
-                    prev.Neighbors[1] = curr
-                    dxf_msp.add_line(curr.Position, prev.Position)
+        #         if(
+        #             prev != None and 
+        #             _intersect_lines(lines_vertical, (curr.Position[0]*12, curr.Position[1]*12), (prev.Position[0]*12, prev.Position[1]*12)) == False and
+        #             _intersect_lines(lines_diagnoal, (curr.Position[0]*12, curr.Position[1]*12), (prev.Position[0]*12, prev.Position[1]*12)) == False
+        #             ):
+        #             # the previous node to the left adds the current node to the right if there's no walls in the way
+        #             curr.Neighbors[3] = prev
+        #             prev.Neighbors[1] = curr
+        #             dxf_msp.add_line((curr.Position[0]*12, curr.Position[1]*12), (prev.Position[0]*12, prev.Position[1]*12), dxfattribs={'layer': 'E-B-FURR'})
 
-                # if(ycounter_ft != ymin_ft):
+        #         # if(ycounter_ft != ymin_ft):
 
 
-                if(xcounter_ft == xstart and ycounter_ft == ystart):
-                    #found start node
-                    self.start = curr
-                elif(xcounter_ft == xend and ycounter_ft == yend):
-                    #found end node
-                    self.end = curr
+        #         if(xcounter_ft == xstart and ycounter_ft == ystart):
+        #             #found start node
+        #             self.start = curr
+        #             dxf_msp.add_circle((curr.Position[0]*12, curr.Position[1]*12), 36, dxfattribs={'layer': 'E-B-FURR'})
 
-                nodes_row.append(curr)
-                prev = curr
-                xcounter_ft += node_increment_ft
+        #         elif(xcounter_ft == xend and ycounter_ft == yend):
+        #             #found end node
+        #             self.end = curr
+        #             dxf_msp.add_circle((curr.Position[0]*12, curr.Position[1]*12), 36, dxfattribs={'layer': 'E-B-FURR'})
 
-            nodes.append(nodes_row)
-            ycounter_ft += node_increment_ft
+        #         nodes_row.append(curr)
+        #         prev = curr
+        #         xcounter_ft += node_increment_ft
 
-        dxf_doc.save()
-        dxf_doc.saveas('nodes.dxf')
+        #     nodes.append(nodes_row)
+        #     ycounter_ft += node_increment_ft
+
+        # dxf_doc.saveas('nodes.dxf')
+
+    
         # ***** testing zone below *****
 
         # Testing for intersection and line direction
@@ -185,6 +193,29 @@ class Maze:
             test_node1.Position,
             test_node2.Position
         ))
+
+        print('intersect horizontal or diagonal lines? ', 
+            
+            _intersect_lines(
+            lines_horizontal,
+            test_node1.Position,
+            test_node2.Position), 
+            
+            _intersect_lines(
+            lines_diagnoal,
+            test_node1.Position,
+            test_node2.Position)
+        
+        )
+
+        print('line output ', len(lines))
+        print('polyline output ', len(polylines))
+
+        # dxf_msp.add_circle((xmin, ymin), 36, dxfattribs={'layer': 'E-B-FURR'})
+        # dxf_msp.add_circle((xmin, ymin), 360)
+        # dxf_msp.add_circle((xmin, ymin), 3600)
+        # dxf_msp.add_line((0,0), (xmax, ymax))
+        # dxf_msp.add_line((0,0), (xmax, ymax), dxfattribs={'layer': 'E-B-FURR'})
 
 def _intersect_lines(lines, pos1, pos2):
     for line in lines:
