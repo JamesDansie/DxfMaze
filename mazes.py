@@ -210,6 +210,7 @@ class Maze:
 
         print('line output ', len(lines))
         print('polyline output ', len(polylines))
+        print('polyline stuff ', polylines[0].get_points())
 
         # dxf_msp.add_circle((xmin, ymin), 36, dxfattribs={'layer': 'E-B-FURR'})
         # dxf_msp.add_circle((xmin, ymin), 360)
