@@ -11,6 +11,17 @@ def solve(factory, method, input_file, output_file):
     t1 = time.time()
     total_time = t1 - t0
     print("Time to make maze: ", total_time, "\n")
+
+    # Create and run solver
+    [title, solver] = factory.createsolver(method)
+    print("Starting Solve:", title)
+
+    t0 = time.time()
+    results = solver(maze)
+    t1 = time.time()
+    total_time = t1 - t0
+    print("Time to solve maze: ", total_time, "\n")
+    print(results)
     
 
 def main():
