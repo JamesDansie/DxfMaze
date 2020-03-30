@@ -12,6 +12,9 @@ class Maze:
             # Neighbor[2] is down
             # Neighbor[3] is left
 
+        def __repr__(self):
+            return '({0}, {1})'.format(self.Position[0], self.Position[1])
+
     def __init__(self, input_file):
     
         # ****** Getting data from Dxf *********
