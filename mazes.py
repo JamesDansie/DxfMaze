@@ -33,14 +33,11 @@ class Maze:
             unfrozen_layers_names.append('layer == "' + layer.dxf.name + '"')
 
         query_str = ' | '.join(unfrozen_layers_names)
-        # print(query_str)
-        # print('LINE[{}]'.format(query_str))
 
         # Lines are only from unfrozen layers
-        polylines = dxf_msp.query('LWPOLYLINE')
+        # polylines = dxf_msp.query('LWPOLYLINE')
         lines = dxf_msp.query('LINE[{}]'.format(query_str))
-        # polylines = dxf_msp.query('LWPOLYLINE[{}]'.format(query_str))
-
+        polylines = dxf_msp.query('LWPOLYLINE[{}]'.format(query_str))
 
         # uncomment to see lines
         # for e in lines:
@@ -81,13 +78,14 @@ class Maze:
             elif(_isDiag(line.dxf.start, line.dxf.end)):
                 lines_diagnoal.append(line)
 
+        print('there are: ',len(polylines),' polylines')
         print('there are ', len(lines),' lines ')
         print('there are ', len(lines_horizontal), 'horizontal lines')
         print('there are ', len(lines_vertical), 'vertical lines')
         print('there are ', len(lines_diagnoal), 'diagonal lines')
         print('the min pt is ({},{})'.format(xmin, ymin))
         print('the max pt is ({},{})'.format(xmax, ymax))
-
+        # print(polylines[0].get_points())
 
         # ******* Making Nodes/Graph **********
     
@@ -289,10 +287,9 @@ class Maze:
 
         unfrozen_layers_names = []
         for layer in unfrozen_layers:
-            # unfrozen_layers_names.append('layer == "' + layer.dxf.name + '"')
             unfrozen_layers_names.append(layer.dxf.name)
         
-        print(unfrozen_layers_names)
+        # print(unfrozen_layers_names)
 
         # marking start and end point
         dxf_msp.add_circle(path[0].Position, 36, dxfattribs={'layer': 'E-B-FURR', 'color':5})

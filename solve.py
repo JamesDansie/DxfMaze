@@ -21,7 +21,7 @@ def solve(factory, method, input_file, output_file):
     t1 = time.time()
     total_time = t1 - t0
     print("Time to solve maze: ", total_time, "\n")
-    print(results)
+    # print(results)
 
     # Render and save the returned path/solution
     t0 = time.time()
