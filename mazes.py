@@ -68,9 +68,9 @@ class Maze:
         ymin = ymax = lines[0].dxf.start[0]
 
         for line in lines:
-            xmin = min(xmin, line.dxf.start[0], line.dxf.end[0])
+            xmin = xcounter = min(xmin, line.dxf.start[0], line.dxf.end[0])
+            ymin = ycounter = min(ymin, line.dxf.start[1], line.dxf.end[1])
             xmax = max(xmax, line.dxf.start[0], line.dxf.end[0])
-            ymin = min(ymin, line.dxf.start[1], line.dxf.end[1])
             ymax = max(ymax, line.dxf.start[1], line.dxf.end[1])
 
             # Sorting lines in vertical, horizontal and diagonal
@@ -90,114 +90,110 @@ class Maze:
 
 
         # ******* Making Nodes/Graph **********
-
-        # Rounding to the nearest ft, this will make sure the start and end node positions are included.
-        xmin_ft = xcounter_ft = floor(xmin/12)
-        ymin_ft = ycounter_ft = floor(ymin/12)
-        xmax_ft = floor(xmax/12)
-        ymax_ft = floor(ymax/12)
+    
         ycounter_int = 0
         node_count = 0
-        node_increment_ft = 5
+        # converting from feet to inches
+        node_increment = 5*12
         nodes = []
 
         # Starting and ending points
         # Eventually replace with user prompts 
-        xstart = 122
-        ystart = 230
-        xend = 257
-        yend = 130
+        # converting from feet to inches
+        xstart = 122*12
+        ystart = 230*12
+        xend = 257*12
+        yend = 130*12
         self.start = None
         self.end = None
 
         # Rounding starting points to nearest node position
         # Should make this into a helper function
-        # x_remainder = xmin_ft % node_increment_ft
-        # y_remainder = ymin_ft % node_increment_ft
+        xcorrection = (xstart - xmin) % node_increment
+        ycorrection = (ystart - ymin) % node_increment
 
-        # x_correction = (xstart % node_increment_ft) + x_remainder
-        # y_correction = (ystart % node_increment_ft) + y_remainder
+        xstart -= xcorrection
+        ystart -= ycorrection
 
-        # xstart += x_correction
-        # ystart += y_correction
+        xcorrection = (xend - xmin) % node_increment
+        ycorrection = (yend - ymin) % node_increment
 
-        # print('Start point: (',xstart,ystart,')')
+        xend -= xcorrection
+        yend -= ycorrection
 
-        # x_correction = ((xend) % node_increment_ft) + x_remainder
-        # y_correction = ((yend) % node_increment_ft) + y_remainder
+        print('does this work?', xstart-xcorrection)
+        print('does this work? ',ystart - ycorrection)
 
-        # xend += x_correction
-        # yend += y_correction
-
+        print('Start point: (',xstart,ystart,')')
         print('End point: (',xend,yend,')')
 
-        print('xcounter: ',xcounter_ft,' xmax ',xmax_ft)
+        # print('xcounter: ',xcounter,' xmax ',xmax)
 
-        while ycounter_ft < ymax_ft:
+        while ycounter < ymax:
         
-            xcounter_ft = xmin_ft
+            xcounter = xmin
             nodes_row = []
             prev = None
             xcounter_int = 0
 
-            while xcounter_ft < xmax_ft:                
-                curr = Maze.Node((xcounter_ft, ycounter_ft))
+            while xcounter < xmax:                
+                curr = Maze.Node((xcounter, ycounter))
                 node_count += 1
                 # print(curr.Position)
-                dxf_msp.add_circle((curr.Position[0]*12, curr.Position[1]*12), 2, dxfattribs={'layer': 'E-B-FURR'})
+                dxf_msp.add_circle((curr.Position[0], curr.Position[1]), 2, dxfattribs={'layer': 'E-B-FURR'})
                 # curr adds the previous node to the left
                 
                 if(
                     prev != None and 
-                    _intersect_lines(lines_vertical, (curr.Position[0]*12, curr.Position[1]*12), (prev.Position[0]*12, prev.Position[1]*12)) == False and
-                    _intersect_lines(lines_diagnoal, (curr.Position[0]*12, curr.Position[1]*12), (prev.Position[0]*12, prev.Position[1]*12)) == False
+                    _intersect_lines(lines_vertical, (curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1])) == False and
+                    _intersect_lines(lines_diagnoal, (curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1])) == False
                     ):
                     # the previous node to the left adds the current node to the right if there's no walls in the way
                     curr.Neighbors[3] = prev
                     prev.Neighbors[1] = curr
-                    dxf_msp.add_line((curr.Position[0]*12, curr.Position[1]*12), (prev.Position[0]*12, prev.Position[1]*12), dxfattribs={'layer': 'E-B-FURR'})
+                    dxf_msp.add_line((curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1]), dxfattribs={'layer': 'E-B-FURR'})
 
-                if(ycounter_ft != ymin_ft):
+                if(ycounter != ymin):
                     if(
                         _intersect_lines(
                             lines_horizontal, 
-                            (curr.Position[0]*12, curr.Position[1]*12), 
-                            (nodes[ycounter_int-1][xcounter_int].Position[0]*12, nodes[ycounter_int-1][xcounter_int].Position[1]*12)) 
+                            (curr.Position[0], curr.Position[1]), 
+                            (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1])) 
                         == False and
                         _intersect_lines(
                             lines_diagnoal, 
-                            (curr.Position[0]*12, curr.Position[1]*12), 
-                            (nodes[ycounter_int-1][xcounter_int].Position[0]*12, nodes[ycounter_int-1][xcounter_int].Position[1]*12)) == False
+                            (curr.Position[0], curr.Position[1]), 
+                            (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1])) == False
                         ):
                         # if there's no walls between the current node and the node below, then add an edge
                         # up is 0, down is 2
                         curr.Neighbors[2] = nodes[ycounter_int-1][xcounter_int]
                         nodes[ycounter_int-1][xcounter_int].Neighbors[0] = curr
                         dxf_msp.add_line(
-                            (curr.Position[0]*12, curr.Position[1]*12), 
-                            (nodes[ycounter_int-1][xcounter_int].Position[0]*12, nodes[ycounter_int-1][xcounter_int].Position[1]*12), 
+                            (curr.Position[0], curr.Position[1]), 
+                            (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1]), 
                             dxfattribs={'layer': 'E-B-FURR', 'color':3})
 
 
-                if(xcounter_ft == xstart and ycounter_ft == ystart):
+                if(xcounter == xstart and ycounter == ystart):
                     #found start node
                     print('found start node')
                     self.start = curr
-                    dxf_msp.add_circle((curr.Position[0]*12, curr.Position[1]*12), 36, dxfattribs={'layer': 'E-B-FURR'})
+                    dxf_msp.add_circle((curr.Position[0], curr.Position[1]), 36, dxfattribs={'layer': 'E-B-FURR'})
 
-                elif(xcounter_ft == xend and ycounter_ft == yend):
+                elif(xcounter == xend and ycounter == yend):
                     #found end node
                     print('found end node')
                     self.end = curr
-                    dxf_msp.add_circle((curr.Position[0]*12, curr.Position[1]*12), 36, dxfattribs={'layer': 'E-B-FURR'})
+                    dxf_msp.add_circle((curr.Position[0], curr.Position[1]), 36, dxfattribs={'layer': 'E-B-FURR'})
 
                 nodes_row.append(curr)
                 prev = curr
-                xcounter_ft += node_increment_ft
+                xcounter += node_increment
                 xcounter_int +=1
 
             nodes.append(nodes_row)
-            ycounter_ft += node_increment_ft
+            ycounter += node_increment
             ycounter_int +=1
 
         dxf_doc.saveas('nodes.dxf')
@@ -285,9 +281,6 @@ class Maze:
     def render(path, input_file, output_file):
         dxf_doc = ezdxf.readfile(input_file)
         dxf_msp = dxf_doc.modelspace()
-
-        for node in path:
-            node.Position = (node.Position[0]*12, node.Position[1]*12)
 
         unfrozen_layers = []
         for layer in dxf_doc.layers:

@@ -15,7 +15,7 @@ def solve(maze):
         visited_nodes.add(curr)
 
         if curr == end:
-            print('Found the end')
+            print('Maze solved')
             print('Checked {} nodes'.format(count))
             return backtrace(parent, start, end)
             break
