@@ -6,7 +6,7 @@ This repo is to read in dxf floor plan, then convert it into a maze/graph that c
 ## Setup
 Needs the ezdxf dependency to read images. 
 To run from the command line;  
-```py solve.py ./floorPlans/FloorPlanSample.dxf ./ans/Answer.dxf -m depthfirst```  
+```py solve.py ./floorPlans/FloorPlanSample.dxf ./floorPlans/Answer.dxf -m depthfirst```  
 This will run a depth first on the FloorPlanSample.dxf file. The -m argument is optional. Default is breadth first. (Not implemented yet) Possible choices are; leftturn, breadthfirst, depthfirst, dijkstra, and astar.
 
 ### Dependencies
