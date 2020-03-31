@@ -27,6 +27,7 @@ def solve(factory, method, input_file, output_file):
     t0 = time.time()
     Maze.render(results, input_file, output_file)
     t1 = time.time()
+    total_time = t1 - t0
     print("Time to render path: ", total_time, "\n")
 
 

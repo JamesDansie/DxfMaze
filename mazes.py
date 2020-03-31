@@ -15,6 +15,14 @@ class Maze:
         def __repr__(self):
             return '({0}, {1})'.format(self.Position[0], self.Position[1])
 
+    class Line:
+        def __init__(self, position1, position2):
+            self.Position1 = position1
+            self.Position2 = position2
+
+        def __repr__(self):
+            return '({0}, {1})'.format(self.Position1, self.Position2)
+
     def __init__(self, input_file):
     
         # ****** Getting data from Dxf *********
@@ -38,10 +46,6 @@ class Maze:
         # polylines = dxf_msp.query('LWPOLYLINE')
         lines = dxf_msp.query('LINE[{}]'.format(query_str))
         polylines = dxf_msp.query('LWPOLYLINE[{}]'.format(query_str))
-
-        # uncomment to see lines
-        # for e in lines:
-        #     _print_entity(e)
         
         # *********** end of dxf import ***************
 
@@ -59,7 +63,7 @@ class Maze:
             
         lines_horizontal = []
         lines_vertical = []
-        lines_diagnoal = []
+        lines_diagonal = []
 
         xmin = xmax = lines[0].dxf.start[0]
         ymin = ymax = lines[0].dxf.start[0]
@@ -70,19 +74,37 @@ class Maze:
             xmax = max(xmax, line.dxf.start[0], line.dxf.end[0])
             ymax = max(ymax, line.dxf.start[1], line.dxf.end[1])
 
+            new_line = Maze.Line(line.dxf.start, line.dxf.end)
             # Sorting lines in vertical, horizontal and diagonal
             if(_isHoriz(line.dxf.start, line.dxf.end)):
-                lines_horizontal.append(line)
+                lines_horizontal.append(new_line)
             elif(_isVert(line.dxf.start, line.dxf.end)):
-                lines_vertical.append(line)
+                lines_vertical.append(new_line)
             elif(_isDiag(line.dxf.start, line.dxf.end)):
-                lines_diagnoal.append(line)
+                lines_diagonal.append(new_line)
+
+        for polyline in polylines:
+            points = polyline.get_points()
+            for i in range(1, len(points)):
+                new_line = Maze.Line(points[i-1], points[i])
+
+                xmin = xcounter = min(xmin, new_line.Position1[0], new_line.Position2[0])
+                ymin = ycounter = min(ymin, new_line.Position1[1], new_line.Position2[1])
+                xmax = max(xmax, new_line.Position1[0], new_line.Position2[0])
+                ymax = max(ymax, new_line.Position1[1], new_line.Position2[1])
+
+                if(_isHoriz(new_line.Position1, new_line.Position2)):
+                    lines_horizontal.append(new_line)
+                elif(_isVert(new_line.Position1, new_line.Position2)):
+                    lines_vertical.append(new_line)
+                elif(_isDiag(new_line.Position1, new_line.Position2)):
+                    lines_diagonal.append(new_line)
 
         print('there are: ',len(polylines),' polylines')
         print('there are ', len(lines),' lines ')
         print('there are ', len(lines_horizontal), 'horizontal lines')
         print('there are ', len(lines_vertical), 'vertical lines')
-        print('there are ', len(lines_diagnoal), 'diagonal lines')
+        print('there are ', len(lines_diagonal), 'diagonal lines')
         print('the min pt is ({},{})'.format(xmin, ymin))
         print('the max pt is ({},{})'.format(xmax, ymax))
         # print(polylines[0].get_points())
@@ -91,8 +113,11 @@ class Maze:
     
         ycounter_int = 0
         node_count = 0
+
+        inc = input("What is maze resolution in feet? (default is 5ft)")
+        inc_int = 5 if len(inc) < 1 else int(inc)
         # converting from feet to inches
-        node_increment = 5*12
+        node_increment = inc_int * 12
         nodes = []
 
         # Starting and ending points
@@ -119,9 +144,6 @@ class Maze:
         xend -= xcorrection
         yend -= ycorrection
 
-        print('does this work?', xstart-xcorrection)
-        print('does this work? ',ystart - ycorrection)
-
         print('Start point: (',xstart,ystart,')')
         print('End point: (',xend,yend,')')
 
@@ -144,7 +166,7 @@ class Maze:
                 if(
                     prev != None and 
                     _intersect_lines(lines_vertical, (curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1])) == False and
-                    _intersect_lines(lines_diagnoal, (curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1])) == False
+                    _intersect_lines(lines_diagonal, (curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1])) == False
                     ):
                     # the previous node to the left adds the current node to the right if there's no walls in the way
                     curr.Neighbors[3] = prev
@@ -159,7 +181,7 @@ class Maze:
                             (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1])) 
                         == False and
                         _intersect_lines(
-                            lines_diagnoal, 
+                            lines_diagonal, 
                             (curr.Position[0], curr.Position[1]), 
                             (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1])) == False
                         ):
@@ -246,7 +268,7 @@ class Maze:
         #     test_node2.Position), 
             
         #     _intersect_lines(
-        #     lines_diagnoal,
+        #     lines_diagonal,
         #     test_node1.Position,
         #     test_node2.Position)
         
@@ -259,7 +281,7 @@ class Maze:
         #         test_node2.Position),
 
         #     _intersect_lines(
-        #         lines_diagnoal,
+        #         lines_diagonal,
         #         test_node1.Position,
         #         test_node2.Position
         #     )
@@ -305,8 +327,8 @@ class Maze:
 def _intersect_lines(lines, pos1, pos2):
     for line in lines:
         if(_intersect(
-            (line.dxf.start[0], line.dxf.start[1]),
-            (line.dxf.end[0], line.dxf.end[1]),
+            (line.Position1[0], line.Position1[1]),
+            (line.Position2[0], line.Position2[1]),
             pos1, pos2
         )): return True
     return False
