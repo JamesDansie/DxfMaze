@@ -7,7 +7,7 @@ def solve(factory, method, input_file, output_file):
     
     print("Creating Graph/Maze")
     t0 = time.time()
-    maze = Maze(input_file)
+    maze = Maze(input_file, output_file)
     t1 = time.time()
     total_time = t1 - t0
     print("Time to make maze: ", total_time, "\n")
@@ -25,7 +25,7 @@ def solve(factory, method, input_file, output_file):
 
     # Render and save the returned path/solution
     t0 = time.time()
-    Maze.render(results, input_file, output_file)
+    maze.render(results, input_file, output_file)
     t1 = time.time()
     total_time = t1 - t0
     print("Time to render path: ", total_time, "\n")

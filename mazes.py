@@ -23,13 +23,40 @@ class Maze:
         def __repr__(self):
             return '({0}, {1})'.format(self.Position1, self.Position2)
 
-    def __init__(self, input_file):
+    def __init__(self, input_file, output_file):
     
         # ****** Getting data from Dxf *********
         # Importing the dxf
         print("Loading Dxf")
         dxf_doc = ezdxf.readfile(input_file)
         dxf_msp = dxf_doc.modelspace()
+        units_dic = {
+            0:	'Unitless',
+            1:	'Inches',
+            2:	'Feet',
+            3:	'Miles',
+            4:	'Millimeters',
+            5:	'Centimeters',
+            6:	'Meters',
+            7:	'Kilometers',
+            8:	'Microinches',
+            9:	'Mils',
+            10:	'Yards',
+            11:	'Angstroms',
+            12:	'Nanometers',
+            13:	'Microns',
+            14:	'Decimeters',
+            15:	'Decameters',
+            16:	'Hectometers',
+            17:	'Gigameters',
+            18:	'Astronomical units',
+            19:	'Light years',
+            20:	'Parsecs',
+            21:	'US Survey Feet',
+            22:	'US Survey Inch',
+            23:	'US Survey Yard',
+            24:	'US Survey Mile'
+            }
 
         unfrozen_layers = []
         for layer in dxf_doc.layers:
@@ -107,7 +134,9 @@ class Maze:
         print('there are ', len(lines_diagonal), 'diagonal lines')
         print('the min pt is ({},{})'.format(xmin, ymin))
         print('the max pt is ({},{})'.format(xmax, ymax))
-        # print(polylines[0].get_points())
+        see_nodes_str = input("Would you like to see nodes and edges? (y/N)")
+        self.see_nodes_bool = True if 'y' in see_nodes_str.lower() else False
+        print('the drawing units are {}'.format(units_dic[dxf_doc.header['$INSUNITS']]))
 
         # ******* Making Nodes/Graph **********
     
@@ -123,10 +152,16 @@ class Maze:
         # Starting and ending points
         # Eventually replace with user prompts 
         # converting from feet to inches
-        xstart = 122*12
-        ystart = 230*12
-        xend = 257*12
-        yend = 130*12
+        xstart_str = input("What is the starting x position in inches? (default is 122feet)")
+        ystart_str = input("What is the starting y position in inches? (default is 230 feet)")
+        xend_str = input("What is the ending x position in inches? (default is 257 feet)")
+        yend_str = input("What is the ending y position in inches? (default is 130 feet)")
+
+        xstart = 122*12 if len(xstart_str) < 1 else int(xstart_str)
+        ystart = 230*12 if len(ystart_str) < 1 else int(ystart_str)
+        xend = 257*12 if len(xend_str) < 1 else int(xend_str)
+        yend = 130*12 if len(yend_str) < 1 else int(yend_str)
+
         self.start = None
         self.end = None
 
@@ -160,7 +195,8 @@ class Maze:
                 curr = Maze.Node((xcounter, ycounter))
                 node_count += 1
                 # print(curr.Position)
-                dxf_msp.add_circle((curr.Position[0], curr.Position[1]), 2, dxfattribs={'layer': 'E-B-FURR'})
+                if(self.see_nodes_bool):
+                    dxf_msp.add_circle((curr.Position[0], curr.Position[1]), 2, dxfattribs={'layer': 'E-B-FURR'})
                 # curr adds the previous node to the left
                 
                 if(
@@ -171,7 +207,8 @@ class Maze:
                     # the previous node to the left adds the current node to the right if there's no walls in the way
                     curr.Neighbors[3] = prev
                     prev.Neighbors[1] = curr
-                    dxf_msp.add_line((curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1]), dxfattribs={'layer': 'E-B-FURR'})
+                    if(self.see_nodes_bool):
+                        dxf_msp.add_line((curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1]), dxfattribs={'layer': 'E-B-FURR', 'color':3})
 
                 if(ycounter != ymin):
                     if(
@@ -189,23 +226,24 @@ class Maze:
                         # up is 0, down is 2
                         curr.Neighbors[2] = nodes[ycounter_int-1][xcounter_int]
                         nodes[ycounter_int-1][xcounter_int].Neighbors[0] = curr
-                        dxf_msp.add_line(
-                            (curr.Position[0], curr.Position[1]), 
-                            (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1]), 
-                            dxfattribs={'layer': 'E-B-FURR', 'color':3})
+                        if(self.see_nodes_bool):
+                            dxf_msp.add_line(
+                                (curr.Position[0], curr.Position[1]), 
+                                (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1]), 
+                                dxfattribs={'layer': 'E-B-FURR', 'color':3})
 
 
                 if(xcounter == xstart and ycounter == ystart):
                     #found start node
                     print('found start node')
                     self.start = curr
-                    dxf_msp.add_circle((curr.Position[0], curr.Position[1]), 36, dxfattribs={'layer': 'E-B-FURR'})
+                    # dxf_msp.add_circle((curr.Position[0], curr.Position[1]), 36, dxfattribs={'layer': 'E-B-FURR'})
 
                 elif(xcounter == xend and ycounter == yend):
                     #found end node
                     print('found end node')
                     self.end = curr
-                    dxf_msp.add_circle((curr.Position[0], curr.Position[1]), 36, dxfattribs={'layer': 'E-B-FURR'})
+                    # dxf_msp.add_circle((curr.Position[0], curr.Position[1]), 36, dxfattribs={'layer': 'E-B-FURR'})
 
                 nodes_row.append(curr)
                 prev = curr
@@ -216,90 +254,16 @@ class Maze:
             ycounter += node_increment
             ycounter_int +=1
 
-        dxf_doc.saveas('nodes.dxf')
+        if(see_nodes_str):
+            dxf_doc.saveas(output_file)
 
         print('Total maze nodes: ',node_count)
-    
-        # ***** testing zone below *****
 
-        # # Testing for intersection and line direction
-        # test_node1 = Maze.Node((0, 0))
-        # test_node2 = Maze.Node((2800, 3500))
-        # test_line = lines[0]
-
-        # print(test_line.dxf.start)
-        # print(test_line.dxf.end)
-        # print(test_node1.Position)
-        # print(test_node2.Position)
-
-        # print('does it intersect? ',_intersect(
-        #     (test_node1.Position[0], test_node1.Position[1]),
-        #     (test_node2.Position[0], test_node2.Position[1]),
-        #     (test_line.dxf.start[0], test_line.dxf.start[1]),
-        #     (test_line.dxf.end[0], test_line.dxf.end[1])
-        #     ))
-
-        # print('is horizontal? ',_isHoriz(
-        #     (test_node1.Position[0], test_node1.Position[1]),
-        #     (test_node2.Position[0], test_node2.Position[1])
-        # ))
-
-        # print('is vert? ',_isVert(
-        #     (test_node1.Position[0], test_node1.Position[1]),
-        #     (test_node2.Position[0], test_node2.Position[1])
-        # ))
-
-        # print('is diagonal? ',_isDiag(
-        #     (test_node1.Position[0], test_node1.Position[1]),
-        #     (test_node2.Position[0], test_node2.Position[1])
-        # ))
-
-        # print('intersect horizontal lines? ', _intersect_lines(
-        #     lines_horizontal,
-        #     test_node1.Position,
-        #     test_node2.Position
-        # ))
-
-        # print('intersect horizontal or diagonal lines? ', 
-            
-        #     _intersect_lines(
-        #     lines_horizontal,
-        #     test_node1.Position,
-        #     test_node2.Position), 
-            
-        #     _intersect_lines(
-        #     lines_diagonal,
-        #     test_node1.Position,
-        #     test_node2.Position)
-        
-        # )
-
-        # print('intersect vertical or diagonal lines? ',
-        #     _intersect_lines(
-        #         lines_vertical,
-        #         test_node1.Position,
-        #         test_node2.Position),
-
-        #     _intersect_lines(
-        #         lines_diagonal,
-        #         test_node1.Position,
-        #         test_node2.Position
-        #     )
-            
-        # )
-
-        # print('line output ', len(lines))
-        # print('polyline output ', len(polylines))
-        # print('polyline stuff ', polylines[0].get_points())
-
-        # dxf_msp.add_circle((xmin, ymin), 36, dxfattribs={'layer': 'E-B-FURR'})
-        # dxf_msp.add_circle((xmin, ymin), 360)
-        # dxf_msp.add_circle((xmin, ymin), 3600)
-        # dxf_msp.add_line((0,0), (xmax, ymax))
-        # dxf_msp.add_line((0,0), (xmax, ymax), dxfattribs={'layer': 'E-B-FURR'})
-
-    def render(path, input_file, output_file):
-        dxf_doc = ezdxf.readfile(input_file)
+    def render(self, path, input_file, output_file):
+        if(self.see_nodes_bool):
+            dxf_doc = ezdxf.readfile(output_file)
+        else:
+            dxf_doc = ezdxf.readfile(input_file)
         dxf_msp = dxf_doc.modelspace()
 
         unfrozen_layers = []
@@ -319,7 +283,8 @@ class Maze:
 
         # adding a line for each pair of points
         for i in range (1, len(path)):
-            dxf_msp.add_line(path[i-1].Position, path[i].Position, dxfattribs={'layer': 'E-B-FURR', 'color':4})
+            # Colors: 1: Red, 3: Green, 4: Teal, 5: Blue, 6: Maroon, 7: Black
+            dxf_msp.add_line(path[i-1].Position, path[i].Position, dxfattribs={'layer': 'E-B-FURR', 'color':1})
 
         dxf_doc.saveas(output_file)
 
