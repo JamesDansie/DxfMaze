@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2458939.61375
+2458939.708854167
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2458939.613796296
+2458939.708900463
   9
 $TDUUPDATE
  40
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-89E12E56-72CF-11EA-AAE7-ACDE48001122
+AB4D95DA-72E2-11EA-A7D1-ACDE48001122
   9
 $VERSIONGUID
   2
-8C812FEE-72CF-11EA-AAE7-ACDE48001122
+ADED7C88-72E2-11EA-A7D1-ACDE48001122
   9
 $EXTNAMES
 290
@@ -145982,6 +145982,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146050,6 +146052,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146118,6 +146122,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146186,6 +146192,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146254,6 +146262,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146322,6 +146332,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146390,6 +146402,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146458,6 +146472,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146526,6 +146542,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146594,6 +146612,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146662,6 +146682,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146730,6 +146752,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146798,6 +146822,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146866,6 +146892,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -146934,6 +146962,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -147002,6 +147032,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -147070,6 +147102,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -147138,6 +147172,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -147206,6 +147242,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -147274,6 +147312,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -147342,6 +147382,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -147410,6 +147452,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -147478,6 +147522,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -147546,6 +147592,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -147614,6 +147662,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -147682,6 +147732,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -147750,6 +147802,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148182,6 +148236,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148250,6 +148306,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148318,6 +148376,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148386,6 +148446,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148454,6 +148516,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148522,6 +148586,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148590,6 +148656,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148658,6 +148726,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148726,6 +148796,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148794,6 +148866,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148862,6 +148936,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148930,6 +149006,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -148998,6 +149076,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149066,6 +149146,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149134,6 +149216,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149202,6 +149286,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149270,6 +149356,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149338,6 +149426,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149406,6 +149496,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149474,6 +149566,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149542,6 +149636,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149610,6 +149706,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149678,6 +149776,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149746,6 +149846,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149814,6 +149916,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149882,6 +149986,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149950,6 +150056,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -149994,6 +150102,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150062,6 +150172,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150106,6 +150218,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150174,6 +150288,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150242,6 +150358,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150286,6 +150404,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150354,6 +150474,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150422,6 +150544,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150466,6 +150590,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150534,6 +150660,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150602,6 +150730,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150646,6 +150776,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150714,6 +150846,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150782,6 +150916,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150850,6 +150986,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150918,6 +151056,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -150986,6 +151126,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151054,6 +151196,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151122,6 +151266,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151190,6 +151336,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151258,6 +151406,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151326,6 +151476,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151394,6 +151546,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151462,6 +151616,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151530,6 +151686,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151598,6 +151756,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151666,6 +151826,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151734,6 +151896,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151802,6 +151966,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151870,6 +152036,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -151938,6 +152106,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -152006,6 +152176,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -152074,6 +152246,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -152142,6 +152316,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -152210,6 +152386,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -152278,6 +152456,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -152430,6 +152610,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -152586,6 +152768,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -152654,6 +152838,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -152810,6 +152996,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -152942,6 +153130,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153010,6 +153200,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153078,6 +153270,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153146,6 +153340,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153214,6 +153410,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153282,6 +153480,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153350,6 +153550,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153418,6 +153620,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153486,6 +153690,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153554,6 +153760,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153622,6 +153830,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153690,6 +153900,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153758,6 +153970,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153826,6 +154040,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153894,6 +154110,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -153962,6 +154180,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154030,6 +154250,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154098,6 +154320,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154166,6 +154390,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154234,6 +154460,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154302,6 +154530,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154370,6 +154600,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154438,6 +154670,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154506,6 +154740,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154574,6 +154810,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154618,6 +154856,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154686,6 +154926,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154730,6 +154972,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154798,6 +155042,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154866,6 +155112,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -154934,6 +155182,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155002,6 +155252,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155070,6 +155322,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155138,6 +155392,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155206,6 +155462,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155274,6 +155532,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155342,6 +155602,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155410,6 +155672,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155454,6 +155718,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155522,6 +155788,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155590,6 +155858,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155658,6 +155928,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155726,6 +155998,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155794,6 +156068,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155862,6 +156138,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155930,6 +156208,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -155998,6 +156278,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156066,6 +156348,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156134,6 +156418,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156202,6 +156488,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156270,6 +156558,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156338,6 +156628,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156406,6 +156698,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156474,6 +156768,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156542,6 +156838,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156610,6 +156908,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156678,6 +156978,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156746,6 +157048,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156814,6 +157118,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156882,6 +157188,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -156950,6 +157258,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157058,6 +157368,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157126,6 +157438,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157170,6 +157484,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157238,6 +157554,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157306,6 +157624,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157374,6 +157694,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157442,6 +157764,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157510,6 +157834,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157578,6 +157904,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157605,15 +157933,15 @@ E-B-FURR
 100
 AcDbCircle
  10
-3084.0
+3144.0
  20
 1500.0
  30
 0.0
  40
-36.0
+2.0
   0
-CIRCLE
+LINE
   5
 BB38
 330
@@ -157623,15 +157951,19 @@ AcDbEntity
   8
 E-B-FURR
 100
-AcDbCircle
+AcDbLine
  10
 3144.0
  20
 1500.0
  30
 0.0
- 40
-2.0
+ 11
+3084.0
+ 21
+1500.0
+ 31
+0.0
   0
 LINE
   5
@@ -157642,30 +157974,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-3144.0
- 20
-1500.0
- 30
-0.0
- 11
-3084.0
- 21
-1500.0
- 31
-0.0
-  0
-LINE
-  5
-BB3A
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157683,7 +157993,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB3B
+BB3A
 330
 AACF
 100
@@ -157700,6 +158010,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB3B
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+3204.0
+ 20
+1500.0
+ 30
+0.0
+ 11
+3144.0
+ 21
+1500.0
+ 31
+0.0
   0
 LINE
   5
@@ -157710,30 +158044,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-3204.0
- 20
-1500.0
- 30
-0.0
- 11
-3144.0
- 21
-1500.0
- 31
-0.0
-  0
-LINE
-  5
-BB3D
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157751,7 +158063,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB3E
+BB3D
 330
 AACF
 100
@@ -157768,6 +158080,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB3E
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+3264.0
+ 20
+1500.0
+ 30
+0.0
+ 11
+3204.0
+ 21
+1500.0
+ 31
+0.0
   0
 LINE
   5
@@ -157778,30 +158114,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-3264.0
- 20
-1500.0
- 30
-0.0
- 11
-3204.0
- 21
-1500.0
- 31
-0.0
-  0
-LINE
-  5
-BB40
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157819,7 +158133,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB41
+BB40
 330
 AACF
 100
@@ -157836,6 +158150,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB41
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+3324.0
+ 20
+1500.0
+ 30
+0.0
+ 11
+3264.0
+ 21
+1500.0
+ 31
+0.0
   0
 LINE
   5
@@ -157846,30 +158184,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-3324.0
- 20
-1500.0
- 30
-0.0
- 11
-3264.0
- 21
-1500.0
- 31
-0.0
-  0
-LINE
-  5
-BB43
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157887,7 +158203,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB44
+BB43
 330
 AACF
 100
@@ -157907,13 +158223,15 @@ AcDbCircle
   0
 LINE
   5
-BB45
+BB44
 330
 AACF
 100
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157931,7 +158249,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB46
+BB45
 330
 AACF
 100
@@ -157948,6 +158266,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB46
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1164.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1104.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -157958,30 +158300,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1164.0
- 20
-1560.0
- 30
-0.0
- 11
-1104.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB48
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -157999,7 +158319,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB49
+BB48
 330
 AACF
 100
@@ -158016,6 +158336,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB49
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1224.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1164.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158026,30 +158370,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1224.0
- 20
-1560.0
- 30
-0.0
- 11
-1164.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB4B
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158067,7 +158389,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB4C
+BB4B
 330
 AACF
 100
@@ -158084,6 +158406,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB4C
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1284.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1224.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158094,30 +158440,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1284.0
- 20
-1560.0
- 30
-0.0
- 11
-1224.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB4E
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158135,7 +158459,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB4F
+BB4E
 330
 AACF
 100
@@ -158152,6 +158476,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB4F
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1344.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1284.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158162,30 +158510,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1344.0
- 20
-1560.0
- 30
-0.0
- 11
-1284.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB51
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158203,7 +158529,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB52
+BB51
 330
 AACF
 100
@@ -158220,6 +158546,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB52
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1404.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1344.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158230,30 +158580,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1404.0
- 20
-1560.0
- 30
-0.0
- 11
-1344.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB54
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158271,7 +158599,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB55
+BB54
 330
 AACF
 100
@@ -158288,6 +158616,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB55
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1464.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1404.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158298,30 +158650,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1464.0
- 20
-1560.0
- 30
-0.0
- 11
-1404.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB57
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158339,7 +158669,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB58
+BB57
 330
 AACF
 100
@@ -158356,6 +158686,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB58
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1524.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1464.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158366,30 +158720,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1524.0
- 20
-1560.0
- 30
-0.0
- 11
-1464.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB5A
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158407,7 +158739,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB5B
+BB5A
 330
 AACF
 100
@@ -158424,6 +158756,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB5B
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1584.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1524.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158434,30 +158790,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1584.0
- 20
-1560.0
- 30
-0.0
- 11
-1524.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB5D
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158475,7 +158809,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB5E
+BB5D
 330
 AACF
 100
@@ -158492,6 +158826,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB5E
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1644.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1584.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158502,30 +158860,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1644.0
- 20
-1560.0
- 30
-0.0
- 11
-1584.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB60
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158543,7 +158879,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB61
+BB60
 330
 AACF
 100
@@ -158560,6 +158896,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB61
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1704.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1644.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158570,30 +158930,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1704.0
- 20
-1560.0
- 30
-0.0
- 11
-1644.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB63
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158611,7 +158949,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB64
+BB63
 330
 AACF
 100
@@ -158628,6 +158966,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB64
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1764.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1704.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158638,30 +159000,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1764.0
- 20
-1560.0
- 30
-0.0
- 11
-1704.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB66
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158679,7 +159019,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB67
+BB66
 330
 AACF
 100
@@ -158696,6 +159036,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB67
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1824.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1764.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158706,30 +159070,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1824.0
- 20
-1560.0
- 30
-0.0
- 11
-1764.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB69
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158747,7 +159089,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB6A
+BB69
 330
 AACF
 100
@@ -158764,6 +159106,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB6A
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1884.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1824.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158774,30 +159140,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1884.0
- 20
-1560.0
- 30
-0.0
- 11
-1824.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB6C
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158815,7 +159159,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB6D
+BB6C
 330
 AACF
 100
@@ -158832,6 +159176,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB6D
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+1944.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1884.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158842,30 +159210,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-1944.0
- 20
-1560.0
- 30
-0.0
- 11
-1884.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB6F
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158883,7 +159229,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB70
+BB6F
 330
 AACF
 100
@@ -158900,6 +159246,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB70
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2004.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+1944.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158910,30 +159280,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2004.0
- 20
-1560.0
- 30
-0.0
- 11
-1944.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB72
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -158951,7 +159299,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB73
+BB72
 330
 AACF
 100
@@ -158968,6 +159316,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB73
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2064.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2004.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -158978,30 +159350,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2064.0
- 20
-1560.0
- 30
-0.0
- 11
-2004.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB75
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159019,7 +159369,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB76
+BB75
 330
 AACF
 100
@@ -159036,6 +159386,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB76
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2124.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2064.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159046,30 +159420,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2124.0
- 20
-1560.0
- 30
-0.0
- 11
-2064.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB78
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159087,7 +159439,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB79
+BB78
 330
 AACF
 100
@@ -159104,6 +159456,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB79
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2184.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2124.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159114,30 +159490,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2184.0
- 20
-1560.0
- 30
-0.0
- 11
-2124.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB7B
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159155,7 +159509,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB7C
+BB7B
 330
 AACF
 100
@@ -159172,6 +159526,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB7C
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2244.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2184.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159182,30 +159560,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2244.0
- 20
-1560.0
- 30
-0.0
- 11
-2184.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB7E
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159223,7 +159579,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB7F
+BB7E
 330
 AACF
 100
@@ -159240,6 +159596,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB7F
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2304.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2244.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159250,30 +159630,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2304.0
- 20
-1560.0
- 30
-0.0
- 11
-2244.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB81
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159291,7 +159649,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB82
+BB81
 330
 AACF
 100
@@ -159308,6 +159666,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB82
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2364.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2304.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159318,30 +159700,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2364.0
- 20
-1560.0
- 30
-0.0
- 11
-2304.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB84
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159359,7 +159719,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB85
+BB84
 330
 AACF
 100
@@ -159376,6 +159736,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB85
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2424.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2364.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159386,30 +159770,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2424.0
- 20
-1560.0
- 30
-0.0
- 11
-2364.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB87
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159427,7 +159789,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB88
+BB87
 330
 AACF
 100
@@ -159447,13 +159809,15 @@ AcDbCircle
   0
 LINE
   5
-BB89
+BB88
 330
 AACF
 100
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159471,7 +159835,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB8A
+BB89
 330
 AACF
 100
@@ -159488,6 +159852,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB8A
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2544.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2484.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159498,30 +159886,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2544.0
- 20
-1560.0
- 30
-0.0
- 11
-2484.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB8C
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159539,7 +159905,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB8D
+BB8C
 330
 AACF
 100
@@ -159559,7 +159925,7 @@ AcDbCircle
   0
 LINE
   5
-BB8E
+BB8D
 330
 AACF
 100
@@ -159583,7 +159949,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB8F
+BB8E
 330
 AACF
 100
@@ -159600,6 +159966,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB8F
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2664.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2604.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159610,30 +160000,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2664.0
- 20
-1560.0
- 30
-0.0
- 11
-2604.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB91
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159651,7 +160019,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB92
+BB91
 330
 AACF
 100
@@ -159668,6 +160036,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB92
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2724.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2664.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159678,30 +160070,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2724.0
- 20
-1560.0
- 30
-0.0
- 11
-2664.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB94
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159719,7 +160089,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB95
+BB94
 330
 AACF
 100
@@ -159736,6 +160106,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB95
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2784.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2724.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159746,30 +160140,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2784.0
- 20
-1560.0
- 30
-0.0
- 11
-2724.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB97
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159787,7 +160159,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB98
+BB97
 330
 AACF
 100
@@ -159804,6 +160176,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB98
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2844.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2784.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159814,30 +160210,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2844.0
- 20
-1560.0
- 30
-0.0
- 11
-2784.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB9A
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159855,7 +160229,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB9B
+BB9A
 330
 AACF
 100
@@ -159872,6 +160246,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB9B
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2904.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2844.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159882,30 +160280,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2904.0
- 20
-1560.0
- 30
-0.0
- 11
-2844.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BB9D
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159923,7 +160299,7 @@ AcDbLine
   0
 CIRCLE
   5
-BB9E
+BB9D
 330
 AACF
 100
@@ -159940,6 +160316,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BB9E
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+2964.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2904.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -159950,30 +160350,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-2964.0
- 20
-1560.0
- 30
-0.0
- 11
-2904.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BBA0
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -159991,7 +160369,7 @@ AcDbLine
   0
 CIRCLE
   5
-BBA1
+BBA0
 330
 AACF
 100
@@ -160008,6 +160386,30 @@ AcDbCircle
 0.0
  40
 2.0
+  0
+LINE
+  5
+BBA1
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbLine
+ 10
+3024.0
+ 20
+1560.0
+ 30
+0.0
+ 11
+2964.0
+ 21
+1560.0
+ 31
+0.0
   0
 LINE
   5
@@ -160018,30 +160420,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
-100
-AcDbLine
- 10
-3024.0
- 20
-1560.0
- 30
-0.0
- 11
-2964.0
- 21
-1560.0
- 31
-0.0
-  0
-LINE
-  5
-BBA3
-330
-AACF
-100
-AcDbEntity
-  8
-E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160059,7 +160439,7 @@ AcDbLine
   0
 CIRCLE
   5
-BBA4
+BBA3
 330
 AACF
 100
@@ -160079,7 +160459,7 @@ AcDbCircle
   0
 LINE
   5
-BBA5
+BBA4
 330
 AACF
 100
@@ -160103,13 +160483,15 @@ AcDbLine
   0
 LINE
   5
-BBA6
+BBA5
 330
 AACF
 100
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160124,6 +160506,26 @@ AcDbLine
 1500.0
  31
 0.0
+  0
+CIRCLE
+  5
+BBA6
+330
+AACF
+100
+AcDbEntity
+  8
+E-B-FURR
+100
+AcDbCircle
+ 10
+3084.0
+ 20
+1560.0
+ 30
+0.0
+ 40
+36.0
   0
 CIRCLE
   5
@@ -160178,6 +160580,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160246,6 +160650,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160314,6 +160720,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160382,6 +160790,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160426,6 +160836,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160494,6 +160906,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160562,6 +160976,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160630,6 +161046,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160698,6 +161116,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160766,6 +161186,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160834,6 +161256,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160902,6 +161326,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -160970,6 +161396,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161038,6 +161466,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161106,6 +161536,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161174,6 +161606,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161242,6 +161676,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161310,6 +161746,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161378,6 +161816,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161446,6 +161886,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161514,6 +161956,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161582,6 +162026,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161650,6 +162096,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161718,6 +162166,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161786,6 +162236,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161854,6 +162306,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161922,6 +162376,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -161966,6 +162422,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162034,6 +162492,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162102,6 +162562,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162170,6 +162632,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162238,6 +162702,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162306,6 +162772,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162374,6 +162842,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162442,6 +162912,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162574,6 +163046,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162642,6 +163116,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162686,6 +163162,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162754,6 +163232,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162822,6 +163302,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162866,6 +163348,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -162934,6 +163418,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163002,6 +163488,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163070,6 +163558,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163138,6 +163628,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163206,6 +163698,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163274,6 +163768,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163342,6 +163838,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163410,6 +163908,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163478,6 +163978,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163546,6 +164048,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163614,6 +164118,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163682,6 +164188,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163750,6 +164258,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163818,6 +164328,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163886,6 +164398,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -163954,6 +164468,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164022,6 +164538,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164090,6 +164608,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164158,6 +164678,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164226,6 +164748,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164294,6 +164818,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164362,6 +164888,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164406,6 +164934,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164474,6 +165004,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164542,6 +165074,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164610,6 +165144,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164678,6 +165214,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164746,6 +165284,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164814,6 +165354,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164882,6 +165424,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -164966,6 +165510,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165034,6 +165580,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165078,6 +165626,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165146,6 +165696,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165214,6 +165766,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165258,6 +165812,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165326,6 +165882,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165394,6 +165952,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165462,6 +166022,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165530,6 +166092,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165598,6 +166162,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165666,6 +166232,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165734,6 +166302,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165802,6 +166372,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165870,6 +166442,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -165938,6 +166512,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166006,6 +166582,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166074,6 +166652,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166142,6 +166722,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166210,6 +166792,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166278,6 +166862,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166346,6 +166932,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166414,6 +167002,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166482,6 +167072,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166550,6 +167142,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166618,6 +167212,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166686,6 +167282,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166754,6 +167352,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166798,6 +167398,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166866,6 +167468,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -166934,6 +167538,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167002,6 +167608,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167070,6 +167678,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167138,6 +167748,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167206,6 +167818,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167274,6 +167888,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167358,6 +167974,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167426,6 +168044,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167470,6 +168090,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167538,6 +168160,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167606,6 +168230,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167650,6 +168276,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167718,6 +168346,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167786,6 +168416,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167854,6 +168486,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167922,6 +168556,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -167990,6 +168626,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168058,6 +168696,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168126,6 +168766,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168194,6 +168836,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168262,6 +168906,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168330,6 +168976,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168398,6 +169046,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168466,6 +169116,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168534,6 +169186,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168602,6 +169256,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168670,6 +169326,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168738,6 +169396,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168806,6 +169466,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168874,6 +169536,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -168942,6 +169606,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169010,6 +169676,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169078,6 +169746,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169146,6 +169816,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169190,6 +169862,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169258,6 +169932,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169326,6 +170002,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169394,6 +170072,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169462,6 +170142,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169530,6 +170212,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169598,6 +170282,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169666,6 +170352,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169774,6 +170462,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169842,6 +170532,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169910,6 +170602,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -169978,6 +170672,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170046,6 +170742,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170090,6 +170788,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170158,6 +170858,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170226,6 +170928,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170294,6 +170998,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170362,6 +171068,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170430,6 +171138,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170498,6 +171208,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170566,6 +171278,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170634,6 +171348,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170702,6 +171418,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170770,6 +171488,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170838,6 +171558,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170906,6 +171628,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -170974,6 +171698,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171042,6 +171768,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171110,6 +171838,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171178,6 +171908,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171246,6 +171978,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171314,6 +172048,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171382,6 +172118,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171450,6 +172188,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171518,6 +172258,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171586,6 +172328,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171630,6 +172374,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171698,6 +172444,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171766,6 +172514,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171834,6 +172584,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171902,6 +172654,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -171970,6 +172724,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172038,6 +172794,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172106,6 +172864,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172214,6 +172974,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172282,6 +173044,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172350,6 +173114,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172418,6 +173184,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172486,6 +173254,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172530,6 +173300,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172598,6 +173370,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172666,6 +173440,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172734,6 +173510,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172802,6 +173580,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172870,6 +173650,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -172938,6 +173720,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173006,6 +173790,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173074,6 +173860,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173142,6 +173930,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173210,6 +174000,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173278,6 +174070,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173346,6 +174140,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173414,6 +174210,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173482,6 +174280,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173550,6 +174350,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173618,6 +174420,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173686,6 +174490,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173754,6 +174560,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173822,6 +174630,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173890,6 +174700,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -173958,6 +174770,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174026,6 +174840,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174070,6 +174886,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174138,6 +174956,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174206,6 +175026,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174274,6 +175096,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174382,6 +175206,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174426,6 +175252,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174470,6 +175298,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174538,6 +175368,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174582,6 +175414,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174650,6 +175484,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174718,6 +175554,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174786,6 +175624,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174854,6 +175694,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174898,6 +175740,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -174966,6 +175810,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175034,6 +175880,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175102,6 +175950,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175170,6 +176020,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175238,6 +176090,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175306,6 +176160,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175374,6 +176230,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175442,6 +176300,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175510,6 +176370,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175578,6 +176440,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175646,6 +176510,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175714,6 +176580,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175782,6 +176650,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175850,6 +176720,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175918,6 +176790,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -175986,6 +176860,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -176054,6 +176930,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -176122,6 +177000,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -176190,6 +177070,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -176318,6 +177200,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -176386,6 +177270,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -176454,6 +177340,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -176542,6 +177430,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -176610,6 +177500,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -176674,6 +177566,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -176830,6 +177724,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -176898,6 +177794,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -176966,6 +177864,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177034,6 +177934,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177102,6 +178004,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177146,6 +178050,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177214,6 +178120,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177282,6 +178190,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177350,6 +178260,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177418,6 +178330,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177486,6 +178400,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177554,6 +178470,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177622,6 +178540,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177690,6 +178610,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177758,6 +178680,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177826,6 +178750,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177894,6 +178820,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -177962,6 +178890,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178030,6 +178960,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178098,6 +179030,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178166,6 +179100,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178234,6 +179170,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178302,6 +179240,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178370,6 +179310,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178478,6 +179420,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178546,6 +179490,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178590,6 +179536,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178658,6 +179606,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178722,6 +179672,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178790,6 +179742,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178858,6 +179812,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178902,6 +179858,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -178970,6 +179928,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179038,6 +179998,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179106,6 +180068,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179174,6 +180138,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179242,6 +180208,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179310,6 +180278,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179378,6 +180348,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179446,6 +180418,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179490,6 +180464,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179558,6 +180534,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179626,6 +180604,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179694,6 +180674,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179762,6 +180744,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179830,6 +180814,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179898,6 +180884,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -179966,6 +180954,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180034,6 +181024,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180102,6 +181094,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180170,6 +181164,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180238,6 +181234,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180306,6 +181304,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180374,6 +181374,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180442,6 +181444,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180510,6 +181514,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180578,6 +181584,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180646,6 +181654,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180754,6 +181764,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180822,6 +181834,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180930,6 +181944,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -180998,6 +182014,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181086,6 +182104,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181154,6 +182174,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181198,6 +182220,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181242,6 +182266,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181310,6 +182336,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181378,6 +182406,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181446,6 +182476,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181514,6 +182546,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181582,6 +182616,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181650,6 +182686,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181718,6 +182756,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181762,6 +182802,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181830,6 +182872,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181898,6 +182942,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -181966,6 +183012,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182034,6 +183082,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182102,6 +183152,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182170,6 +183222,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182238,6 +183292,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182306,6 +183362,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182374,6 +183432,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182442,6 +183502,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182510,6 +183572,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182578,6 +183642,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182646,6 +183712,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182714,6 +183782,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182782,6 +183852,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182850,6 +183922,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -182958,6 +184032,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -183026,6 +184102,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -183114,6 +184192,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -183182,6 +184262,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -183226,6 +184308,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -183270,6 +184354,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -183338,6 +184424,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -183490,6 +184578,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -183558,6 +184648,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -183626,6 +184718,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -183826,6 +184920,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -183894,6 +184990,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -183938,6 +185036,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184006,6 +185106,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184074,6 +185176,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184142,6 +185246,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184210,6 +185316,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184278,6 +185386,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184346,6 +185456,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184414,6 +185526,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184482,6 +185596,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184550,6 +185666,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184618,6 +185736,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184686,6 +185806,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184754,6 +185876,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184822,6 +185946,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184890,6 +186016,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -184958,6 +186086,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185066,6 +186196,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185134,6 +186266,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185198,6 +186332,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185266,6 +186402,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185334,6 +186472,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185378,6 +186518,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185422,6 +186564,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185490,6 +186634,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185554,6 +186700,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185642,6 +186790,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185710,6 +186860,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185778,6 +186930,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185846,6 +187000,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185914,6 +187070,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -185982,6 +187140,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186050,6 +187210,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186118,6 +187280,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186162,6 +187326,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186230,6 +187396,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186298,6 +187466,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186366,6 +187536,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186434,6 +187606,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186502,6 +187676,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186570,6 +187746,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186638,6 +187816,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186706,6 +187886,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186774,6 +187956,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186842,6 +188026,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186910,6 +188096,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -186978,6 +188166,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -187046,6 +188236,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -187114,6 +188306,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -187222,6 +188416,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -187290,6 +188486,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -187554,6 +188752,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -187662,6 +188862,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -187770,6 +188972,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -187838,6 +189042,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -187906,6 +189112,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -187974,6 +189182,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188042,6 +189252,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188110,6 +189322,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188178,6 +189392,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188246,6 +189462,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188290,6 +189508,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188358,6 +189578,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188426,6 +189648,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188494,6 +189718,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188562,6 +189788,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188630,6 +189858,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188698,6 +189928,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188766,6 +189998,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188834,6 +190068,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188902,6 +190138,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -188970,6 +190208,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189038,6 +190278,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189106,6 +190348,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189174,6 +190418,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189282,6 +190528,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189350,6 +190598,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189438,6 +190688,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189482,6 +190734,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189550,6 +190804,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189618,6 +190874,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189686,6 +190944,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189754,6 +191014,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189798,6 +191060,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -189946,6 +191210,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190014,6 +191280,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190082,6 +191350,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190150,6 +191420,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190218,6 +191490,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190286,6 +191560,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190354,6 +191630,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190422,6 +191700,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190466,6 +191746,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190534,6 +191816,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190602,6 +191886,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190670,6 +191956,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190738,6 +192026,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190806,6 +192096,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190874,6 +192166,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -190942,6 +192236,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191010,6 +192306,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191078,6 +192376,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191146,6 +192446,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191214,6 +192516,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191282,6 +192586,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191350,6 +192656,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191438,6 +192746,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191506,6 +192816,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191594,6 +192906,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191662,6 +192976,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191706,6 +193022,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191774,6 +193092,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191842,6 +193162,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191910,6 +193232,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -191978,6 +193302,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192042,6 +193368,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192150,6 +193478,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192194,6 +193524,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192262,6 +193594,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192330,6 +193664,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192398,6 +193734,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192466,6 +193804,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192534,6 +193874,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192602,6 +193944,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192670,6 +194014,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192714,6 +194060,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192782,6 +194130,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192850,6 +194200,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192918,6 +194270,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -192986,6 +194340,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -193054,6 +194410,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -193438,6 +194796,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -193506,6 +194866,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -193574,6 +194936,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -193618,6 +194982,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -193686,6 +195052,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -193754,6 +195122,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -193822,6 +195192,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -193890,6 +195262,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -193974,6 +195348,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194082,6 +195458,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194150,6 +195528,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194218,6 +195598,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194286,6 +195668,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194354,6 +195738,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194422,6 +195808,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194490,6 +195878,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194558,6 +195948,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194602,6 +195994,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194670,6 +196064,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194738,6 +196134,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194806,6 +196204,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194874,6 +196274,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194942,6 +196344,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -194986,6 +196390,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -195054,6 +196460,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -195142,6 +196550,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -195210,6 +196620,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -195278,6 +196690,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -195346,6 +196760,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -195414,6 +196830,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -195526,6 +196944,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -195770,6 +197190,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -195838,6 +197260,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -195906,6 +197330,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -195974,6 +197400,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -196042,6 +197470,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -196106,6 +197536,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -196194,6 +197626,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -196306,6 +197740,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -196374,6 +197810,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -196442,6 +197880,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -196642,6 +198082,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -196710,6 +198152,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -196754,6 +198198,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -196822,6 +198268,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -196890,6 +198338,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -196958,6 +198408,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197174,6 +198626,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197242,6 +198696,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197310,6 +198766,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197378,6 +198836,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197446,6 +198906,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197514,6 +198976,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197582,6 +199046,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197650,6 +199116,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197718,6 +199186,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197786,6 +199256,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197854,6 +199326,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197922,6 +199396,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -197986,6 +199462,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198050,6 +199528,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198242,6 +199722,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198310,6 +199792,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198378,6 +199862,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198446,6 +199932,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198514,6 +200002,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198582,6 +200072,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198650,6 +200142,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198718,6 +200212,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198762,6 +200258,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198830,6 +200328,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198898,6 +200398,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -198966,6 +200468,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199010,6 +200514,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199078,6 +200584,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199146,6 +200654,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199190,6 +200700,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199234,6 +200746,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199302,6 +200816,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199370,6 +200886,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199438,6 +200956,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199506,6 +201026,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199574,6 +201096,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199642,6 +201166,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199750,6 +201276,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -199882,6 +201410,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200010,6 +201540,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200078,6 +201610,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200190,6 +201724,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200298,6 +201834,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200366,6 +201904,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200434,6 +201974,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200502,6 +202044,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200570,6 +202114,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200638,6 +202184,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200706,6 +202254,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200774,6 +202324,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200818,6 +202370,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -200886,6 +202440,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -201194,6 +202750,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -201262,6 +202820,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -201330,6 +202890,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -201398,6 +202960,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -201466,6 +203030,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -201534,6 +203100,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -201622,6 +203190,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -201690,6 +203260,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -201734,6 +203306,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -201802,6 +203376,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -201998,6 +203574,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202066,6 +203644,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202130,6 +203710,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202198,6 +203780,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202310,6 +203894,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202378,6 +203964,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202446,6 +204034,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202514,6 +204104,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202582,6 +204174,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202650,6 +204244,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202718,6 +204314,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202786,6 +204384,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202854,6 +204454,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202898,6 +204500,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -202966,6 +204570,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203010,6 +204616,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203078,6 +204686,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203146,6 +204756,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203214,6 +204826,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203282,6 +204896,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203370,6 +204986,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203438,6 +205056,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203506,6 +205126,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203574,6 +205196,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203642,6 +205266,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203710,6 +205336,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203778,6 +205406,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203822,6 +205452,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203890,6 +205522,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -203958,6 +205592,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204002,6 +205638,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204126,6 +205764,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204258,6 +205898,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204322,6 +205964,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204390,6 +206034,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204458,6 +206104,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204526,6 +206174,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204594,6 +206244,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204662,6 +206314,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204730,6 +206384,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204798,6 +206454,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204866,6 +206524,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -204934,6 +206594,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -205106,6 +206768,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -205174,6 +206838,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -205242,6 +206908,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -205310,6 +206978,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -205378,6 +207048,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -205446,6 +207118,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -205514,6 +207188,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -205714,6 +207390,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -205758,6 +207436,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -205826,6 +207506,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -205894,6 +207576,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206018,6 +207702,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206062,6 +207748,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206130,6 +207818,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206174,6 +207864,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206282,6 +207974,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206458,6 +208152,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206526,6 +208222,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206594,6 +208292,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206662,6 +208362,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206706,6 +208408,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206794,6 +208498,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206838,6 +208544,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206906,6 +208614,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -206950,6 +208660,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -207058,6 +208770,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -207126,6 +208840,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -207194,6 +208910,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -207262,6 +208980,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -207330,6 +209050,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -207530,6 +209252,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208038,6 +209762,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208150,6 +209876,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208218,6 +209946,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208262,6 +209992,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208330,6 +210062,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208398,6 +210132,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208442,6 +210178,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208510,6 +210248,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208578,6 +210318,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208646,6 +210388,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208734,6 +210478,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208802,6 +210548,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208846,6 +210594,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208914,6 +210664,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -208958,6 +210710,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209026,6 +210780,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209070,6 +210826,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209114,6 +210872,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209182,6 +210942,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209250,6 +211012,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209318,6 +211082,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209362,6 +211128,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209514,6 +211282,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209558,6 +211328,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209626,6 +211398,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209694,6 +211468,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209762,6 +211538,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209830,6 +211608,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209898,6 +211678,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -209966,6 +211748,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210034,6 +211818,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210102,6 +211888,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210170,6 +211958,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210238,6 +212028,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210306,6 +212098,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210374,6 +212168,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210442,6 +212238,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210486,6 +212284,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210554,6 +212354,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210622,6 +212424,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210666,6 +212470,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210734,6 +212540,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210802,6 +212610,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210870,6 +212680,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -210938,6 +212750,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211026,6 +212840,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211070,6 +212886,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211138,6 +212956,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211182,6 +213002,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211250,6 +213072,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211314,6 +213138,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211382,6 +213208,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211450,6 +213278,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211518,6 +213348,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211562,6 +213394,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211646,6 +213480,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211690,6 +213526,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211778,6 +213616,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211846,6 +213686,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211914,6 +213756,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -211982,6 +213826,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212050,6 +213896,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212118,6 +213966,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212186,6 +214036,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212254,6 +214106,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212322,6 +214176,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212390,6 +214246,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212458,6 +214316,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212526,6 +214386,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212594,6 +214456,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212794,6 +214658,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212862,6 +214728,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212930,6 +214798,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -212998,6 +214868,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -213066,6 +214938,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -213174,6 +215048,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -213242,6 +215118,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -213370,6 +215248,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -213438,6 +215318,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -213506,6 +215388,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -213574,6 +215458,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -213862,6 +215748,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -213930,6 +215818,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -213998,6 +215888,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214042,6 +215934,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214086,6 +215980,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214154,6 +216050,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214222,6 +216120,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214290,6 +216190,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214358,6 +216260,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214426,6 +216330,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214470,6 +216376,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214538,6 +216446,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214606,6 +216516,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214674,6 +216586,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214742,6 +216656,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214810,6 +216726,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214878,6 +216796,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -214946,6 +216866,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215014,6 +216936,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215082,6 +217006,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215150,6 +217076,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215194,6 +217122,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215262,6 +217192,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215330,6 +217262,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215374,6 +217308,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215442,6 +217378,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215486,6 +217424,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215554,6 +217494,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215598,6 +217540,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215642,6 +217586,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215710,6 +217656,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215778,6 +217726,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215846,6 +217796,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215914,6 +217866,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -215982,6 +217936,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216050,6 +218006,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216118,6 +218076,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216186,6 +218146,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216254,6 +218216,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216322,6 +218286,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216390,6 +218356,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216434,6 +218402,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216478,6 +218448,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216546,6 +218518,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216614,6 +218588,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216682,6 +218658,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216750,6 +218728,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216818,6 +218798,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216862,6 +218844,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216930,6 +218914,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -216998,6 +218984,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217066,6 +219054,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217134,6 +219124,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217202,6 +219194,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217270,6 +219264,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217338,6 +219334,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217406,6 +219404,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217474,6 +219474,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217562,6 +219564,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217630,6 +219634,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217698,6 +219704,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217742,6 +219750,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217810,6 +219820,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217854,6 +219866,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217922,6 +219936,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -217966,6 +219982,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218010,6 +220028,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218078,6 +220098,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218146,6 +220168,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218214,6 +220238,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218282,6 +220308,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218350,6 +220378,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218418,6 +220448,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218486,6 +220518,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218554,6 +220588,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218622,6 +220658,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218690,6 +220728,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218758,6 +220798,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218802,6 +220844,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218846,6 +220890,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218914,6 +220960,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -218982,6 +221030,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219026,6 +221076,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219094,6 +221146,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219162,6 +221216,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219206,6 +221262,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219274,6 +221332,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219342,6 +221402,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219410,6 +221472,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219478,6 +221542,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219546,6 +221612,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219614,6 +221682,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219682,6 +221752,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219750,6 +221822,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219838,6 +221912,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219906,6 +221982,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -219974,6 +222052,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -220042,6 +222122,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -220086,6 +222168,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -220154,6 +222238,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -220282,6 +222368,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -220350,6 +222438,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -220418,6 +222508,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -220662,6 +222754,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -220730,6 +222824,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -220798,6 +222894,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -220866,6 +222964,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -220934,6 +223034,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -220978,6 +223080,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221022,6 +223126,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221090,6 +223196,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221178,6 +223286,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221246,6 +223356,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221314,6 +223426,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221358,6 +223472,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221426,6 +223542,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221494,6 +223612,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221562,6 +223682,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221630,6 +223752,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221694,6 +223818,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221762,6 +223888,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221806,6 +223934,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221874,6 +224004,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -221942,6 +224074,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222010,6 +224144,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222078,6 +224214,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222146,6 +224284,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222190,6 +224330,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222258,6 +224400,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222302,6 +224446,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222370,6 +224516,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222414,6 +224562,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222458,6 +224608,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222526,6 +224678,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222594,6 +224748,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222662,6 +224818,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222730,6 +224888,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222798,6 +224958,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222866,6 +225028,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -222934,6 +225098,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223002,6 +225168,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223070,6 +225238,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223138,6 +225308,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223206,6 +225378,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223274,6 +225448,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223342,6 +225518,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223410,6 +225588,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223498,6 +225678,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223566,6 +225748,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223634,6 +225818,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223702,6 +225888,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223770,6 +225958,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223838,6 +226028,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223906,6 +226098,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -223994,6 +226188,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224126,6 +226322,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224194,6 +226392,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224262,6 +226462,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224330,6 +226532,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224398,6 +226602,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224462,6 +226668,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224530,6 +226738,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224574,6 +226784,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224642,6 +226854,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224686,6 +226900,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224730,6 +226946,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224798,6 +227016,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224866,6 +227086,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -224934,6 +227156,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225002,6 +227226,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225070,6 +227296,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225138,6 +227366,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225206,6 +227436,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225274,6 +227506,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225342,6 +227576,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225410,6 +227646,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225478,6 +227716,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225546,6 +227786,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225614,6 +227856,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225682,6 +227926,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225794,6 +228040,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225862,6 +228110,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225930,6 +228180,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -225998,6 +228250,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -226066,6 +228320,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -226134,6 +228390,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -226222,6 +228480,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -226290,6 +228550,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -226358,6 +228620,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -226466,6 +228730,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -226534,6 +228800,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10
@@ -226666,6 +228934,8 @@ AACF
 AcDbEntity
   8
 E-B-FURR
+ 62
+3
 100
 AcDbLine
  10

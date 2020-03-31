@@ -106,7 +106,7 @@ class Maze:
         xstart = 122
         ystart = 230
         xend = 257
-        yend = 125
+        yend = 130
         self.start = None
         self.end = None
 
@@ -176,7 +176,7 @@ class Maze:
                         dxf_msp.add_line(
                             (curr.Position[0]*12, curr.Position[1]*12), 
                             (nodes[ycounter_int-1][xcounter_int].Position[0]*12, nodes[ycounter_int-1][xcounter_int].Position[1]*12), 
-                            dxfattribs={'layer': 'E-B-FURR'})
+                            dxfattribs={'layer': 'E-B-FURR', 'color':3})
 
 
                 if(xcounter_ft == xstart and ycounter_ft == ystart):
@@ -281,6 +281,36 @@ class Maze:
         # dxf_msp.add_circle((xmin, ymin), 3600)
         # dxf_msp.add_line((0,0), (xmax, ymax))
         # dxf_msp.add_line((0,0), (xmax, ymax), dxfattribs={'layer': 'E-B-FURR'})
+
+    def render(path, input_file, output_file):
+        dxf_doc = ezdxf.readfile(input_file)
+        dxf_msp = dxf_doc.modelspace()
+
+        for node in path:
+            node.Position = (node.Position[0]*12, node.Position[1]*12)
+
+        unfrozen_layers = []
+        for layer in dxf_doc.layers:
+            if(layer.is_frozen() == False):
+                unfrozen_layers.append(layer)
+
+        unfrozen_layers_names = []
+        for layer in unfrozen_layers:
+            # unfrozen_layers_names.append('layer == "' + layer.dxf.name + '"')
+            unfrozen_layers_names.append(layer.dxf.name)
+        
+        print(unfrozen_layers_names)
+
+        # marking start and end point
+        dxf_msp.add_circle(path[0].Position, 36, dxfattribs={'layer': 'E-B-FURR', 'color':5})
+        dxf_msp.add_circle(path[-1].Position, 36, dxfattribs={'layer': 'E-B-FURR', 'color':7})
+
+        # adding a line for each pair of points
+        for i in range (1, len(path)):
+            dxf_msp.add_line(path[i-1].Position, path[i].Position, dxfattribs={'layer': 'E-B-FURR', 'color':4})
+
+        dxf_doc.saveas(output_file)
+
 
 def _intersect_lines(lines, pos1, pos2):
     for line in lines:
