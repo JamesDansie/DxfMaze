@@ -1,6 +1,7 @@
 from __future__ import division 
 from math import floor
 import ezdxf
+import time
 
 class Maze:
     class Node:
@@ -24,7 +25,7 @@ class Maze:
             return '({0}, {1})'.format(self.Position1, self.Position2)
 
     def __init__(self, input_file, output_file):
-    
+        t0 = time.time()
         # ****** Getting data from Dxf *********
         # Importing the dxf
         print("Loading Dxf")
@@ -87,7 +88,7 @@ class Maze:
         #         3.3.1) All horizontal edges check vertical lines, all vertical edges check horizontal lines
         #     3.4) if edge does not cross a line then make the edge, else don't make the edge
         # 4) go solve it!
-            
+        
         lines_horizontal = []
         lines_vertical = []
         lines_diagonal = []
@@ -182,8 +183,21 @@ class Maze:
         print('Start point: (',xstart,ystart,')')
         print('End point: (',xend,yend,')')
 
+        t1 = time.time()
+        # How to make this faster?
+        # Looks like the time is coming from the if statements for intersecting lines. Not sure which is slowest
+        # looks like horizontal is the slowest, but vert is pretty similar. Horizontal is maybe a bit slower since it
+        # has to go to the nodes array. The larger problem is that it is O(n) for the number of lines
+        # if we sort the lines and use a binary search then it would be O(log(n)) and a lot faster.
+        # will have to think for a bit on how to implement that. 
+        print('Start time was: ', (t1 - t0))
+        t_total_0 = 0
+        t_total_1 = 0
+        t_total_2 = 0
+        t_total_horiz = 0
+        t_total_vert = 0
+        t_total_diag = 0
         # print('xcounter: ',xcounter,' xmax ',xmax)
-
         while ycounter < ymax:
         
             xcounter = xmin
@@ -191,13 +205,15 @@ class Maze:
             prev = None
             xcounter_int = 0
 
-            while xcounter < xmax:                
+            while xcounter < xmax:
+                t0 = time.time()
                 curr = Maze.Node((xcounter, ycounter))
                 node_count += 1
                 # print(curr.Position)
                 if(self.see_nodes_bool):
                     dxf_msp.add_circle((curr.Position[0], curr.Position[1]), 2, dxfattribs={'layer': 'E-B-FURR'})
                 # curr adds the previous node to the left
+                t1 = time.time()
                 
                 if(
                     prev != None and 
@@ -209,7 +225,7 @@ class Maze:
                     prev.Neighbors[1] = curr
                     if(self.see_nodes_bool):
                         dxf_msp.add_line((curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1]), dxfattribs={'layer': 'E-B-FURR', 'color':3})
-
+                t2 = time.time()
                 if(ycounter != ymin):
                     if(
                         _intersect_lines(
@@ -232,6 +248,29 @@ class Maze:
                                 (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1]), 
                                 dxfattribs={'layer': 'E-B-FURR', 'color':3})
 
+                        # ********** time test section *******
+                        if(prev != None):
+                            t4 = time.time()
+                            _intersect_lines(lines_vertical, (curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1]))
+
+                            t5 = time.time()
+                            _intersect_lines(
+                                lines_horizontal, 
+                                (curr.Position[0], curr.Position[1]), 
+                                (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1])) 
+
+                            t6 = time.time()
+                            _intersect_lines(
+                                lines_diagonal, 
+                                (curr.Position[0], curr.Position[1]), 
+                                (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1]))
+                            t7 = time.time()
+
+                            t_total_vert += (t5 - t4)
+                            t_total_horiz += (t6 - t5)
+                            t_total_diag += (t7 - t6)
+                        
+                t3 = time.time()
 
                 if(xcounter == xstart and ycounter == ystart):
                     #found start node
@@ -250,6 +289,10 @@ class Maze:
                 xcounter += node_increment
                 xcounter_int +=1
 
+                t_total_0 += (t1 - t0)
+                t_total_1 += (t2 - t1)
+                t_total_2 += (t3 - t2)
+
             nodes.append(nodes_row)
             ycounter += node_increment
             ycounter_int +=1
@@ -257,6 +300,12 @@ class Maze:
         if(see_nodes_str):
             dxf_doc.saveas(output_file)
 
+        print('Time 0 was: ', t_total_0)
+        print('Time 1 was: ', t_total_1)
+        print('Time 2 was: ', t_total_2)
+        print('Time for horizontal lines was ', t_total_horiz)
+        print('Time for vertical lines was ', t_total_vert)
+        print('Time for diagonal lines was ', t_total_diag)
         print('Total maze nodes: ',node_count)
 
     def render(self, path, input_file, output_file):
