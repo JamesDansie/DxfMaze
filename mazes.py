@@ -190,6 +190,13 @@ class Maze:
         # has to go to the nodes array. The larger problem is that it is O(n) for the number of lines
         # if we sort the lines and use a binary search then it would be O(log(n)) and a lot faster.
         # will have to think for a bit on how to implement that. 
+
+        # starting with lines_vertical
+        # sort vertical lines by the first position's x value
+        # then with _intersect_lines filter down the lines until we only have lines near the current point
+        # of the limited list, then use the for loop like normal
+        # That might not be necessary. If there's any intersections then break the loop, or use use the binary search and no for loop
+
         print('Start time was: ', (t1 - t0))
         t_total_0 = 0
         t_total_1 = 0
@@ -308,6 +315,8 @@ class Maze:
         print('Time for diagonal lines was ', t_total_diag)
         print('Total maze nodes: ',node_count)
 
+        
+
     def render(self, path, input_file, output_file):
         if(self.see_nodes_bool):
             dxf_doc = ezdxf.readfile(output_file)
@@ -323,8 +332,6 @@ class Maze:
         unfrozen_layers_names = []
         for layer in unfrozen_layers:
             unfrozen_layers_names.append(layer.dxf.name)
-        
-        # print(unfrozen_layers_names)
 
         # marking start and end point
         dxf_msp.add_circle(path[0].Position, 36, dxfattribs={'layer': 'E-B-FURR', 'color':5})
