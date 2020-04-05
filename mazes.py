@@ -184,18 +184,6 @@ class Maze:
         print('End point: (',xend,yend,')')
 
         t1 = time.time()
-        # How to make this faster?
-        # Looks like the time is coming from the if statements for intersecting lines. Not sure which is slowest
-        # looks like horizontal is the slowest, but vert is pretty similar. Horizontal is maybe a bit slower since it
-        # has to go to the nodes array. The larger problem is that it is O(n) for the number of lines
-        # if we sort the lines and use a binary search then it would be O(log(n)) and a lot faster.
-        # will have to think for a bit on how to implement that. 
-
-        # starting with lines_vertical
-        # sort vertical lines by the first position's x value
-        # then with _intersect_lines filter down the lines until we only have lines near the current point
-        # of the limited list, then use the for loop like normal
-        # That might not be necessary. If there's any intersections then break the loop, or use use the binary search and no for loop
 
         print('Start time was: ', (t1 - t0))
         t_total_0 = 0
@@ -204,6 +192,8 @@ class Maze:
         t_total_horiz = 0
         t_total_vert = 0
         t_total_diag = 0
+        t_total_vert_binary = 0
+
         # print('xcounter: ',xcounter,' xmax ',xmax)
         while ycounter < ymax:
         
@@ -233,6 +223,19 @@ class Maze:
                     if(self.see_nodes_bool):
                         dxf_msp.add_line((curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1]), dxfattribs={'layer': 'E-B-FURR', 'color':3})
                 t2 = time.time()
+
+                # ****** test ******
+                t_b_0 = time.time()
+                if(prev != None):
+                    _intersect_lines_binary(
+                                lines_vertical, 
+                                (prev.Position[0], prev.Position[1]), 
+                                (curr.Position[0], curr.Position[1]))
+                t_b_1 = time.time()
+                t_total_vert_binary += (t_b_1 - t_b_0)
+                    
+                # ***** end test *****
+
                 if(ycounter != ymin):
                     if(
                         _intersect_lines(
@@ -258,7 +261,10 @@ class Maze:
                         # ********** time test section *******
                         if(prev != None):
                             t4 = time.time()
-                            _intersect_lines(lines_vertical, (curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1]))
+                            _intersect_lines(
+                                lines_vertical, 
+                                (curr.Position[0], curr.Position[1]), 
+                                (prev.Position[0], prev.Position[1]))
 
                             t5 = time.time()
                             _intersect_lines(
@@ -271,12 +277,20 @@ class Maze:
                                 lines_diagonal, 
                                 (curr.Position[0], curr.Position[1]), 
                                 (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1]))
+                            
                             t7 = time.time()
+                            # _intersect_lines_binary(
+                            #     lines_vertical, 
+                            #     (curr.Position[0], curr.Position[1]), 
+                            #     (prev.Position[0], prev.Position[1]))
+
+                            t8 = time.time()
 
                             t_total_vert += (t5 - t4)
                             t_total_horiz += (t6 - t5)
                             t_total_diag += (t7 - t6)
-                        
+                            # t_total_vert_binary += (t8 - t7)
+                        # ******** end of test section *******
                 t3 = time.time()
 
                 if(xcounter == xstart and ycounter == ystart):
@@ -312,10 +326,73 @@ class Maze:
         print('Time 2 was: ', t_total_2)
         print('Time for horizontal lines was ', t_total_horiz)
         print('Time for vertical lines was ', t_total_vert)
+        print('Time for vertical lines with binary search was ', t_total_vert_binary)
         print('Time for diagonal lines was ', t_total_diag)
         print('Total maze nodes: ',node_count)
 
-        
+        # *********** time test section *************
+        # How to make this faster?
+        # Looks like the time is coming from the if statements for intersecting lines. Not sure which is slowest
+        # looks like horizontal is the slowest, but vert is pretty similar. Horizontal is maybe a bit slower since it
+        # has to go to the nodes array. The larger problem is that it is O(n) for the number of lines
+        # if we sort the lines and use a binary search then it would be O(log(n)) and a lot faster.
+        # will have to think for a bit on how to implement that. 
+
+        # starting with lines_vertical
+        # sort vertical lines by the first position's x value
+        # then with _intersect_lines filter down the lines until we only have lines near the current point
+        # of the limited list, then use the for loop like normal
+        # That might not be necessary. If there's any intersections then break the loop, or use use the binary search and no for loop
+        lines_vertical.sort(key=lambda x1: x1.Position1[0], reverse=False)
+        # print(lines_vertical[0])
+        # print(lines_vertical[1])
+        # print(lines_vertical[-1])
+        # print('intersect? ',_intersect_lines_binary(lines_vertical, prev.Position, curr.Position))
+        print('intersect? ',_intersect_lines_binary(lines_vertical, (2490, 3000), (2500, 3000)))
+
+
+def _intersect_lines_binary(lines, pos1, pos2):
+    starting_index = binary(lines, pos1[0], pos2[0], .2)
+    print('index is ',starting_index)
+    print('chosen line is ', lines[starting_index])
+    print('pos1 is ', pos1)
+    print('pos2 is ', pos2)
+    if(starting_index == -1):
+        return False
+    
+    new_lines = []
+    new_lines.append(lines[starting_index])
+    lower_bounds = upper_bounds = starting_index
+
+    while(lines[lower_bounds].Position1[0] > pos1[0] and lower_bounds >= 0):
+        new_lines.append(lines[lower_bounds])
+        lower_bounds -= 1
+
+    while(lines[upper_bounds].Position1[0] < pos2[0] and upper_bounds < len(lines)-1 ):
+        new_lines.append(lines[upper_bounds])
+        upper_bounds += 1
+
+    print('new lines are ', len(new_lines))
+    ans = _intersect_lines(new_lines, pos1, pos2)
+    return ans
+    
+def binary(lines, pos1x, pos2x, delta):
+    lower = 0
+    upper = len(lines)-1
+
+    while(lower <= upper):
+        mid = int((lower + upper)/2)
+        print('mid point is ',mid)
+
+        if(lines[mid].Position1[0] > (pos1x - delta) and lines[mid].Position2[0] < (pos2x + delta)):
+            return mid
+        elif(pos1x > lines[mid].Position1[0]):
+            lower = mid + 1
+        else:
+            upper = mid - 1
+    return -1
+
+
 
     def render(self, path, input_file, output_file):
         if(self.see_nodes_bool):
