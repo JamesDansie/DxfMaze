@@ -1,6 +1,7 @@
 from __future__ import division 
 from math import floor
 import ezdxf
+import time
 
 class Maze:
     class Node:
@@ -24,7 +25,7 @@ class Maze:
             return '({0}, {1})'.format(self.Position1, self.Position2)
 
     def __init__(self, input_file, output_file):
-    
+        t0 = time.time()
         # ****** Getting data from Dxf *********
         # Importing the dxf
         print("Loading Dxf")
@@ -70,24 +71,11 @@ class Maze:
         query_str = ' | '.join(unfrozen_layers_names)
 
         # Lines are only from unfrozen layers
-        # polylines = dxf_msp.query('LWPOLYLINE')
         lines = dxf_msp.query('LINE[{}]'.format(query_str))
         polylines = dxf_msp.query('LWPOLYLINE[{}]'.format(query_str))
         
         # *********** end of dxf import ***************
 
-        # okay, so game plan (aka algo)
-        # 1) make a list of all horizontal and vertical lines 
-        #     1.1) store horiz and vert lines seperate
-        #     1.2) keep track of max and min of x,y points
-        # 2) prompt the user for a starting and end point
-        # 3) start making the maze/graph 
-        #     3.2) go through the doc and make a node in 1ft increments from min to max
-        #     3.3) make an edge, and check to see if it crosses a line
-        #         3.3.1) All horizontal edges check vertical lines, all vertical edges check horizontal lines
-        #     3.4) if edge does not cross a line then make the edge, else don't make the edge
-        # 4) go solve it!
-            
         lines_horizontal = []
         lines_vertical = []
         lines_diagonal = []
@@ -126,6 +114,11 @@ class Maze:
                     lines_vertical.append(new_line)
                 elif(_isDiag(new_line.Position1, new_line.Position2)):
                     lines_diagonal.append(new_line)
+        # Sorting verical lines by their x position and 
+        # horizontal lines by their y position
+        lines_vertical.sort(key=lambda x1: x1.Position1[0], reverse=False)
+        lines_horizontal.sort(key=lambda x1: x1.Position1[1], reverse=False)
+
 
         print('there are: ',len(polylines),' polylines')
         print('there are ', len(lines),' lines ')
@@ -182,8 +175,14 @@ class Maze:
         print('Start point: (',xstart,ystart,')')
         print('End point: (',xend,yend,')')
 
-        # print('xcounter: ',xcounter,' xmax ',xmax)
+        t1 = time.time()
 
+        print('Start time was: ', (t1 - t0))
+        t_total_0 = 0
+        t_total_1 = 0
+        t_total_2 = 0
+
+        # print('xcounter: ',xcounter,' xmax ',xmax)
         while ycounter < ymax:
         
             xcounter = xmin
@@ -191,17 +190,19 @@ class Maze:
             prev = None
             xcounter_int = 0
 
-            while xcounter < xmax:                
+            while xcounter < xmax:
+                t0 = time.time()
                 curr = Maze.Node((xcounter, ycounter))
                 node_count += 1
                 # print(curr.Position)
                 if(self.see_nodes_bool):
                     dxf_msp.add_circle((curr.Position[0], curr.Position[1]), 2, dxfattribs={'layer': 'E-B-FURR'})
                 # curr adds the previous node to the left
+                t1 = time.time()
                 
                 if(
                     prev != None and 
-                    _intersect_lines(lines_vertical, (curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1])) == False and
+                    _intersect_lines_binary_vert(lines_vertical, (prev.Position[0], prev.Position[1]), (curr.Position[0], curr.Position[1])) == False and
                     _intersect_lines(lines_diagonal, (curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1])) == False
                     ):
                     # the previous node to the left adds the current node to the right if there's no walls in the way
@@ -209,10 +210,11 @@ class Maze:
                     prev.Neighbors[1] = curr
                     if(self.see_nodes_bool):
                         dxf_msp.add_line((curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1]), dxfattribs={'layer': 'E-B-FURR', 'color':3})
+                t2 = time.time()
 
                 if(ycounter != ymin):
                     if(
-                        _intersect_lines(
+                        _intersect_lines_binary_horiz(
                             lines_horizontal, 
                             (curr.Position[0], curr.Position[1]), 
                             (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1])) 
@@ -232,6 +234,7 @@ class Maze:
                                 (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1]), 
                                 dxfattribs={'layer': 'E-B-FURR', 'color':3})
 
+                t3 = time.time()
 
                 if(xcounter == xstart and ycounter == ystart):
                     #found start node
@@ -250,6 +253,10 @@ class Maze:
                 xcounter += node_increment
                 xcounter_int +=1
 
+                t_total_0 += (t1 - t0)
+                t_total_1 += (t2 - t1)
+                t_total_2 += (t3 - t2)
+
             nodes.append(nodes_row)
             ycounter += node_increment
             ycounter_int +=1
@@ -257,37 +264,139 @@ class Maze:
         if(see_nodes_str):
             dxf_doc.saveas(output_file)
 
+        print('Making nodes took ', t_total_0)
+        print('Making horizontal edges took ', t_total_1)
+        print('Making vertical edges took ', t_total_2)
         print('Total maze nodes: ',node_count)
 
     def render(self, path, input_file, output_file):
-        if(self.see_nodes_bool):
-            dxf_doc = ezdxf.readfile(output_file)
+            if(self.see_nodes_bool):
+                dxf_doc = ezdxf.readfile(output_file)
+            else:
+                dxf_doc = ezdxf.readfile(input_file)
+            dxf_msp = dxf_doc.modelspace()
+
+            unfrozen_layers = []
+            for layer in dxf_doc.layers:
+                if(layer.is_frozen() == False):
+                    unfrozen_layers.append(layer)
+
+            unfrozen_layers_names = []
+            for layer in unfrozen_layers:
+                unfrozen_layers_names.append(layer.dxf.name)
+
+            # marking start and end point
+            dxf_msp.add_circle(path[0].Position, 36, dxfattribs={'layer': 'E-B-FURR', 'color':5})
+            dxf_msp.add_circle(path[-1].Position, 36, dxfattribs={'layer': 'E-B-FURR', 'color':7})
+
+            # adding a line for each pair of points
+            for i in range (1, len(path)):
+                # Colors: 1: Red, 3: Green, 4: Teal, 5: Blue, 6: Maroon, 7: Black
+                dxf_msp.add_line(path[i-1].Position, path[i].Position, dxfattribs={'layer': 'E-B-FURR', 'color':1})
+
+            dxf_doc.saveas(output_file)
+
+# given a pos1 and pos2 that is changing vertically (delta in y)
+# this will check for intersection with horizontal lines (delta in x)
+def _intersect_lines_binary_horiz(lines, pos1, pos2):
+    # Making sure that pos1 is smaller than pos2
+    tmp1 = pos1
+    tmp2 = pos2
+    if(pos1[1] > pos2[1]):
+        pos1 = tmp2
+        pos2 = tmp1
+
+    # Gets us in the ball park
+    starting_index = binary_horiz(lines, pos1[1], pos2[1], .2)
+
+    if(starting_index == -1):
+        return False
+    
+    # Gets all the lines in range between pos1 and pos2
+    new_lines = []
+    new_lines.append(lines[starting_index])
+    lower_bounds = upper_bounds = starting_index
+
+    while(lines[lower_bounds].Position1[1] > pos1[1] and lower_bounds >= 0):
+        new_lines.append(lines[lower_bounds])
+        lower_bounds -= 1
+
+    while(lines[upper_bounds].Position1[1] < pos2[1] and upper_bounds < len(lines)-1 ):
+        new_lines.append(lines[upper_bounds])
+        upper_bounds += 1
+
+    # Check for intersection
+    ans = _intersect_lines(new_lines, pos1, pos2)
+    return ans
+
+# give a pos1 and pos2 that is changing horizontally (delta in x)
+# this will check for intersection with vertical lines (delta in y)
+def _intersect_lines_binary_vert(lines, pos1, pos2):
+    tmp1 = pos1
+    tmp2 = pos2
+
+    if(pos1[0] > pos2[0]):
+        pos1 = tmp2
+        pos2 = tmp1
+
+    # Gets us in the ball park
+    starting_index = binary_vert(lines, pos1[0], pos2[0], .2)
+
+    if(starting_index == -1):
+        return False
+    
+    # Gets all the lines in range between pos1 and pos2
+    new_lines = []
+    new_lines.append(lines[starting_index])
+    lower_bounds = upper_bounds = starting_index
+
+    while(lines[lower_bounds].Position1[0] > pos1[0] and lower_bounds >= 0):
+        new_lines.append(lines[lower_bounds])
+        lower_bounds -= 1
+
+    while(lines[upper_bounds].Position1[0] < pos2[0] and upper_bounds < len(lines)-1 ):
+        new_lines.append(lines[upper_bounds])
+        upper_bounds += 1
+
+    # Check for intersection
+    ans = _intersect_lines(new_lines, pos1, pos2)
+    return ans
+    
+# Finds the indext of a line in the range of pos1 and pos +/- a delta
+# Searches with a binary search
+def binary_vert(lines, pos1x, pos2x, delta):
+    lower = 0
+    upper = len(lines)-1
+
+    while(lower <= upper):
+        mid = int((lower + upper)/2)
+        # print('mid point is ',mid)
+
+        if(lines[mid].Position1[0] > (pos1x - delta) and lines[mid].Position2[0] < (pos2x + delta)):
+            return mid
+        elif(pos1x > lines[mid].Position1[0]):
+            lower = mid + 1
         else:
-            dxf_doc = ezdxf.readfile(input_file)
-        dxf_msp = dxf_doc.modelspace()
+            upper = mid - 1
+    return -1
 
-        unfrozen_layers = []
-        for layer in dxf_doc.layers:
-            if(layer.is_frozen() == False):
-                unfrozen_layers.append(layer)
+# Finds the indext of a line in the range of pos1 and pos +/- a delta
+# Searches with a binary search
+def binary_horiz(lines, pos1x, pos2x, delta):
+    lower = 0
+    upper = len(lines)-1
 
-        unfrozen_layers_names = []
-        for layer in unfrozen_layers:
-            unfrozen_layers_names.append(layer.dxf.name)
-        
-        # print(unfrozen_layers_names)
+    while(lower <= upper):
+        mid = int((lower + upper)/2)
+        # print('mid point is ',mid)
 
-        # marking start and end point
-        dxf_msp.add_circle(path[0].Position, 36, dxfattribs={'layer': 'E-B-FURR', 'color':5})
-        dxf_msp.add_circle(path[-1].Position, 36, dxfattribs={'layer': 'E-B-FURR', 'color':7})
-
-        # adding a line for each pair of points
-        for i in range (1, len(path)):
-            # Colors: 1: Red, 3: Green, 4: Teal, 5: Blue, 6: Maroon, 7: Black
-            dxf_msp.add_line(path[i-1].Position, path[i].Position, dxfattribs={'layer': 'E-B-FURR', 'color':1})
-
-        dxf_doc.saveas(output_file)
-
+        if(lines[mid].Position1[1] > (pos1x - delta) and lines[mid].Position2[1] < (pos2x + delta)):
+            return mid
+        elif(pos1x > lines[mid].Position1[1]):
+            lower = mid + 1
+        else:
+            upper = mid - 1
+    return -1
 
 def _intersect_lines(lines, pos1, pos2):
     for line in lines:
