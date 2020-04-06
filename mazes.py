@@ -71,24 +71,11 @@ class Maze:
         query_str = ' | '.join(unfrozen_layers_names)
 
         # Lines are only from unfrozen layers
-        # polylines = dxf_msp.query('LWPOLYLINE')
         lines = dxf_msp.query('LINE[{}]'.format(query_str))
         polylines = dxf_msp.query('LWPOLYLINE[{}]'.format(query_str))
         
         # *********** end of dxf import ***************
 
-        # okay, so game plan (aka algo)
-        # 1) make a list of all horizontal and vertical lines 
-        #     1.1) store horiz and vert lines seperate
-        #     1.2) keep track of max and min of x,y points
-        # 2) prompt the user for a starting and end point
-        # 3) start making the maze/graph 
-        #     3.2) go through the doc and make a node in 1ft increments from min to max
-        #     3.3) make an edge, and check to see if it crosses a line
-        #         3.3.1) All horizontal edges check vertical lines, all vertical edges check horizontal lines
-        #     3.4) if edge does not cross a line then make the edge, else don't make the edge
-        # 4) go solve it!
-        
         lines_horizontal = []
         lines_vertical = []
         lines_diagonal = []
@@ -127,6 +114,8 @@ class Maze:
                     lines_vertical.append(new_line)
                 elif(_isDiag(new_line.Position1, new_line.Position2)):
                     lines_diagonal.append(new_line)
+        # Sorting verical lines by their x position and 
+        # horizontal lines by their y position
         lines_vertical.sort(key=lambda x1: x1.Position1[0], reverse=False)
         lines_horizontal.sort(key=lambda x1: x1.Position1[1], reverse=False)
 
@@ -192,10 +181,6 @@ class Maze:
         t_total_0 = 0
         t_total_1 = 0
         t_total_2 = 0
-        t_total_horiz = 0
-        t_total_vert = 0
-        t_total_diag = 0
-        t_total_vert_binary = 0
 
         # print('xcounter: ',xcounter,' xmax ',xmax)
         while ycounter < ymax:
@@ -227,23 +212,6 @@ class Maze:
                         dxf_msp.add_line((curr.Position[0], curr.Position[1]), (prev.Position[0], prev.Position[1]), dxfattribs={'layer': 'E-B-FURR', 'color':3})
                 t2 = time.time()
 
-                # ****** test ******
-                # t_b_0 = time.time()
-                # if(prev != None):
-                #     print('bin_ver test ',_intersect_lines_binary_vert(
-                #                 lines_vertical, 
-                #                 (prev.Position[0], prev.Position[1]), 
-                #                 (curr.Position[0], curr.Position[1])))
-                #     # print('vert test ',_intersect_lines(
-                #     #             lines_vertical, 
-                #     #             (prev.Position[0], prev.Position[1]), 
-                #     #             (curr.Position[0], curr.Position[1])))
-
-                # t_b_1 = time.time()
-                # t_total_vert_binary += (t_b_1 - t_b_0)
-                    
-                # ***** end test *****
-
                 if(ycounter != ymin):
                     if(
                         _intersect_lines_binary_horiz(
@@ -266,40 +234,6 @@ class Maze:
                                 (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1]), 
                                 dxfattribs={'layer': 'E-B-FURR', 'color':3})
 
-                        # ********** time test section *******
-                        if(prev != None):
-                            t4 = time.time()
-                            # _intersect_lines(
-                            #     lines_vertical, 
-                            #     (curr.Position[0], curr.Position[1]), 
-                            #     (prev.Position[0], prev.Position[1]))
-
-                            t5 = time.time()
-                            _intersect_lines(
-                                lines_horizontal, 
-                                (curr.Position[0], curr.Position[1]), 
-                                (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1])) 
-
-                            t6 = time.time()
-                            _intersect_lines(
-                                lines_diagonal, 
-                                (curr.Position[0], curr.Position[1]), 
-                                (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1]))
-                            
-                            t7 = time.time()
-                            _intersect_lines_binary_horiz(
-                                lines_horizontal, 
-                                (curr.Position[0], curr.Position[1]), 
-                                (nodes[ycounter_int-1][xcounter_int].Position[0], nodes[ycounter_int-1][xcounter_int].Position[1])
-                                )
-
-                            t8 = time.time()
-
-                            t_total_vert += (t5 - t4)
-                            t_total_horiz += (t6 - t5)
-                            t_total_diag += (t7 - t6)
-                            t_total_vert_binary += (t8 - t7)
-                        # ******** end of test section *******
                 t3 = time.time()
 
                 if(xcounter == xstart and ycounter == ystart):
@@ -330,36 +264,10 @@ class Maze:
         if(see_nodes_str):
             dxf_doc.saveas(output_file)
 
-        print('Time 0 was: ', t_total_0)
-        print('Time 1 was: ', t_total_1)
-        print('Time 2 was: ', t_total_2)
-        print('Time for horizontal lines was ', t_total_horiz)
-        print('Time for vertical lines was ', t_total_vert)
-        print('Time for horizontal lines with binary search was ', t_total_vert_binary)
-        print('Time for diagonal lines was ', t_total_diag)
+        print('Making nodes took ', t_total_0)
+        print('Making horizontal edges took ', t_total_1)
+        print('Making vertical edges took ', t_total_2)
         print('Total maze nodes: ',node_count)
-
-        # *********** time test section *************
-        # How to make this faster?
-        # Looks like the time is coming from the if statements for intersecting lines. Not sure which is slowest
-        # looks like horizontal is the slowest, but vert is pretty similar. Horizontal is maybe a bit slower since it
-        # has to go to the nodes array. The larger problem is that it is O(n) for the number of lines
-        # if we sort the lines and use a binary search then it would be O(log(n)) and a lot faster.
-        # will have to think for a bit on how to implement that. 
-
-        # starting with lines_vertical
-        # sort vertical lines by the first position's x value
-        # then with _intersect_lines filter down the lines until we only have lines near the current point
-        # of the limited list, then use the for loop like normal
-        # That might not be necessary. If there's any intersections then break the loop, or use use the binary search and no for loop
-        # lines_vertical.sort(key=lambda x1: x1.Position1[0], reverse=False)
-        # print(lines_vertical[0])
-        # print(lines_vertical[1])
-        # print(lines_vertical[-1])
-        # print('intersect? ',_intersect_lines_binary(lines_vertical, prev.Position, curr.Position))
-        # print('\n')
-        # print('intersect vertical? ',_intersect_lines_binary_vert(lines_vertical, (2500, 3000), (2490, 3000)))
-        # print('intersect horizontal? ', _intersect_lines_binary_horiz(lines_horizontal, (2000, 3000), (2000, 0)))
 
     def render(self, path, input_file, output_file):
             if(self.see_nodes_bool):
@@ -388,22 +296,23 @@ class Maze:
 
             dxf_doc.saveas(output_file)
 
+# given a pos1 and pos2 that is changing vertically (delta in y)
+# this will check for intersection with horizontal lines (delta in x)
 def _intersect_lines_binary_horiz(lines, pos1, pos2):
+    # Making sure that pos1 is smaller than pos2
     tmp1 = pos1
     tmp2 = pos2
     if(pos1[1] > pos2[1]):
         pos1 = tmp2
         pos2 = tmp1
 
+    # Gets us in the ball park
     starting_index = binary_horiz(lines, pos1[1], pos2[1], .2)
 
-    print('index is ',starting_index)
-    print('chosen line is ', lines[starting_index])
-    print('pos1 is ', pos1)
-    print('pos2 is ', pos2)
     if(starting_index == -1):
         return False
     
+    # Gets all the lines in range between pos1 and pos2
     new_lines = []
     new_lines.append(lines[starting_index])
     lower_bounds = upper_bounds = starting_index
@@ -416,11 +325,12 @@ def _intersect_lines_binary_horiz(lines, pos1, pos2):
         new_lines.append(lines[upper_bounds])
         upper_bounds += 1
 
-    print('new lines are ', len(new_lines))
+    # Check for intersection
     ans = _intersect_lines(new_lines, pos1, pos2)
     return ans
 
-
+# give a pos1 and pos2 that is changing horizontally (delta in x)
+# this will check for intersection with vertical lines (delta in y)
 def _intersect_lines_binary_vert(lines, pos1, pos2):
     tmp1 = pos1
     tmp2 = pos2
@@ -429,15 +339,13 @@ def _intersect_lines_binary_vert(lines, pos1, pos2):
         pos1 = tmp2
         pos2 = tmp1
 
+    # Gets us in the ball park
     starting_index = binary_vert(lines, pos1[0], pos2[0], .2)
-    # print('index is ',starting_index)
-    # print('chosen line is ', lines[starting_index])
-    # print('pos1 is ', pos1)
-    # print('pos2 is ', pos2)
 
     if(starting_index == -1):
         return False
     
+    # Gets all the lines in range between pos1 and pos2
     new_lines = []
     new_lines.append(lines[starting_index])
     lower_bounds = upper_bounds = starting_index
@@ -450,10 +358,12 @@ def _intersect_lines_binary_vert(lines, pos1, pos2):
         new_lines.append(lines[upper_bounds])
         upper_bounds += 1
 
-    # print('new lines are ', len(new_lines))
+    # Check for intersection
     ans = _intersect_lines(new_lines, pos1, pos2)
     return ans
     
+# Finds the indext of a line in the range of pos1 and pos +/- a delta
+# Searches with a binary search
 def binary_vert(lines, pos1x, pos2x, delta):
     lower = 0
     upper = len(lines)-1
@@ -470,6 +380,8 @@ def binary_vert(lines, pos1x, pos2x, delta):
             upper = mid - 1
     return -1
 
+# Finds the indext of a line in the range of pos1 and pos +/- a delta
+# Searches with a binary search
 def binary_horiz(lines, pos1x, pos2x, delta):
     lower = 0
     upper = len(lines)-1
