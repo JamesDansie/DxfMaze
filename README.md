@@ -7,7 +7,21 @@ This repo is to read in dxf floor plan, then convert it into a maze/graph that c
 Needs the ezdxf dependency to read images. 
 To run from the command line;  
 ```py solve.py ./floorPlans/FloorPlanSample.dxf ./ans/Answer.dxf -m depthfirst```  
-This will run a depth first on the FloorPlanSample.dxf file. The -m argument is optional. Default is breadth first. (Not implemented yet) Possible choices are; leftturn, breadthfirst, depthfirst, dijkstra, and astar.
+This will run a depth first on the FloorPlanSample.dxf file, and will output the answer to the Answer.dxf file. The -m argument is optional. Default is breadth first. Possible choices are; breadthfirst, depthfirst. dijkstra, and astar, are yet to be done. In addition, the user can choose new starting and end points, how often a node is made, and if the answer has the edges/nodes displayed or not.
+
+## Output
+These dxf views are from autodesk's free online viewer; viewer.autodesk.com. The sample floor plan looks like this;  
+<img src="./screenshots/FloorPlan.png" width="400">  
+
+The breadth first solution without the nodes and edges looks like this;  
+<img src="./screenshots/Answer1.png" width="400">  
+Notice the red line for the solution, and the two circles marking the start and end points.
+
+The breadth first solution with the nodes and edges looks like this;  
+<img src="./screenshots/Answer2.png" width="400">  
+
+Notice that there are no edges through the walls of the building or the walls of the cubicles.  
+<img src="./screenshots/Answer3.png" width="400">  
 
 ### Dependencies
 * ezdxf - https://pypi.org/project/ezdxf/
