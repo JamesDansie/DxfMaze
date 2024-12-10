@@ -4,7 +4,7 @@
 This repo is to read in dxf floor plan, then convert it into a maze/graph that can be solved to find paths through. Currently nodes are placed from the minimum point up until the max point on every increment. It has no special logic to recognize a room or a hall way (big room for improvement).
 
 ## Setup
-Needs the ezdxf dependency to read images. 
+Needs the ezdxf dependency to read images.
 To run from the command line;  
 ```py solve.py ./floorPlans/FloorPlanSample.dxf ./ans/Answer.dxf -m depthfirst```  
 This will run a depth first on the FloorPlanSample.dxf file, and will output the answer to the Answer.dxf file. The -m argument is optional. Default is breadth first. Possible choices are; breadthfirst, depthfirst. dijkstra, and astar, are yet to be done. In addition, the user can choose new starting and end points, how often a node is made, and if the answer has the edges/nodes displayed or not.
